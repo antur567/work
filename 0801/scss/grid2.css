@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1300px;
+  margin: auto;
+}
+
+h1 img {
+  width: 100%;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 40px;
+  padding: 10px;
+  background-color: #ddd;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: blue;
+  border: 1px solid #000;
+  display: block;
+  padding: 10px;
+  background: lightblue;
+}
+ul li a:hover {
+  color: aqua;
+  transition: 0.35s;
+}
+
+figcaption h3 {
+  color: rgb(222, 21, 171);
+}
+figcaption p {
+  color: rgb(23, 158, 65);
+}
+
+main {
+  border: 1px solid #000;
+  height: 700px;
+}
+
+figure img {
+  width: 100%;
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: yellow;
+}
+
+figcaption {
+  color: red;
+  text-align: center;
+}
+
+.banner h2 img {
+  width: 50%;
+}
+
+footer {
+  display: flex;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  height: 120px;
+  font-size: 40px;
+  font-weight: bold;
+}
+footer p {
+  color: #ddd;
+}
+footer p:hover {
+  color: aquamarine;
+}
+
+@media screen and (max-width: 797px) {
+  figcaption h3 {
+    color: rgb(173, 122, 26);
+  }
+  figcaption p {
+    color: rgb(220, 197, 229);
+  }
+  .main2 {
+    background-color: violet;
+  }
+  footer {
+    height: 100px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  footer p {
+    color: #fff;
+  }
+  footer p:hover {
+    color: red;
+  }
+  ul {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  ul li a {
+    color: lightcoral;
+  }
+  ul li a:hover {
+    color: darkgoldenrod;
+  }
+}
+@media screen and (max-width: 598px) {
+  figcaption h3 {
+    color: rgb(9, 255, 0);
+  }
+  figcaption p {
+    color: rgb(175, 255, 14);
+  }
+  .main2 {
+    background: #ccc;
+  }
+  footer {
+    height: 70px;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  footer p {
+    color: #fff;
+  }
+  footer p:hover {
+    color: blue;
+  }
+  ul {
+    font-size: 15px;
+    font-weight: normal;
+  }
+  ul li a {
+    color: lightcyan;
+  }
+  ul li a:hover {
+    color: chartreuse;
+  }
+}

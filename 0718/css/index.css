@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Song+Myung&display=swap');
+
+
+*{
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  
+}
+h1,h2,h3{
+  font-family: 'Song Myung', serif;
+}
+#sect1,#sect3{
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid #000;
+}
+#sect2{
+  background: #bbb;
+  
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+
+/* -------------header */
+
+
+header .inner{
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+header .inner nav ul{
+  display: flex;
+  
+  
+
+  
+}
+/* --------------mainbanner */
+.mainbanner{
+ 
+  height: 565px;
+  background-image: url("/0718/main.unknown.jpg");
+  background-position: center 60%;
+  background-repeat:no-repeat;
+  background-size: cover;
+
+ 
+  border: 1px solid #000;
+
+  /*백그라운드는 높이부터 해줘야 한다 ㅎㅎ */
+}
+/* section-1------------------ */
+#sect1{
+  padding: 1rem;
+}
+#sect1.col1{
+  margin-bottom: 1rem;
+}
+#sect1 .col2 div{
+  margin-bottom: 1rem;
+}
+
+#sect1 .col1{
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+ 
+  line-height: 30px;
+  
+}
+
+
+#sect1 .col2{
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+ 
+  line-height: 30px;
+  
+}
+/*--------------sect1*/
+#sect2 .inner{
+  padding: 1rem;
+  padding-top: 2rem;
+  
+}
+#sect2{
+ text-align: center;
+ font-size: 20px;
+
+ 
+}
+
+#sect2 figcaption{
+  font-size: 25px;
+  font-weight: bold;
+}
+#sect2 img{
+  width: 100%;
+  margin-top: 1.5rem;
+  
+  
+}
+button.btn{
+  border: none;
+  background-color: #00000080;
+  color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+#sect3 img{
+  border-radius: 50%;
+}
+
+#sect3 h2{
+ text-align: center;
+ margin-top: 20px;
+ font-size: 35px;
+ 
+}
+
+
+
+
+
+button{
+  border-radius: 10px;
+}
+
+article{
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 10px;
+  
+}
+
+
+
+
+.visualimg img{
+  width: 100%;
+  /* 위드를 잡아줘야 함 ㅎㅎ */
+}
+nav{
+  max-width: 900px;
+  min-width: 448px;
+}
+
+footer{
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:640px){
+  nav{
+    display: none;
+  }
+ 
+
+  article:nth-child(even) figure{order:2;}
+
+  article:nth-child(odd) .desc{order:1 m ;}
+  
+
+  /*핸드폰*/
+}
+@media screen and (min-width:641px){
+  header .inner nav ul{
+    gap:1rem
+    
+  
+    
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+ 
+  }
+  
+
+  /*핸드폰*/
+
+@media screen and (min-width:1024px){
+  
+
+
+  header .inner nav ul{
+   
+    gap: 5rem;
+  
+    
+  }
+  nav ul li a{
+    font-size: 18px;
+  }
+  #sect1{
+    display: flex;
+  }
+  #sect1 .col1,
+  #sect1 .col2{
+    width: 49%;
+  }
+  #sect2 ul{
+    display: flex;
+    justify-content: space-around;
+    
+    
+  }
+  #sect2 ul li{
+    width: 48%;
+   
+  }
+
+ #sect3
+{
+  display: flex;
+  flex-wrap: wrap;
+
+  /*떨궈주세요*/
+}
+
+  #sect3 h2{
+    width: 100%;
+    margin-bottom: 1rem;
+    /*위드를 설정해줘야 한다*/
+  }
+  
+
+  article{
+    width: 49%;
+    display: flex;
+    
+    
+   
+  }
+ 
+  
+  #sect3 h3,p{
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

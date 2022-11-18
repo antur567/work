@@ -1,0 +1,157 @@
+@import url(../reset.css);
+
+body{
+  max-width: 1300px;
+  margin: auto;
+ 
+}
+
+.Main nav ul{
+  display: flex;
+  height: 200px;
+  justify-content:center;
+  align-items: center;
+  gap: 120px;
+ 
+  
+  
+  
+
+}
+.Main nav ul li{
+  font-size: 20px;
+  font-weight: bold;
+
+ 
+  
+ 
+}
+
+.Main nav ul li a{
+  color: hotpink;
+}
+.contents{
+  border: 1px solid #000;
+  height: 800px;
+  margin: auto;
+ 
+  color: #fff;
+  text-align: center;
+ 
+}
+.contents ul{
+  display: flex;
+  flex-direction: row;
+}
+ul.donut {
+  background: black;
+  
+}
+ul.donut:hover {
+  color:coral;
+  transition:1s;
+}
+ul.donut:hover .num1{
+  color: red;
+  transition: 1s;
+}
+ul.donut:hover .num2{
+  color:thistle;
+  transition:1s;
+}
+ul.donut:hover .num3{
+  color:violet;
+  transition: 1s;
+}
+h3:hover{
+  color: cornflowerblue;
+  transition: 1s;
+}
+
+.silde img{
+  margin: 20px;
+}
+.market {
+  width: 35%;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  font-size: 15px;
+  height: 130px;
+  color: #fff;
+ 
+  
+}
+.market,
+
+
+footer {
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #23614a;
+  padding: 10px;
+  margin-top: 50px;
+}
+footer .footerlogo{
+  display: flex;
+  color: #fff;
+  justify-content:space-between;
+
+  
+}
+.footerlogo p{
+ display: flex;
+ align-items: center;
+ 
+ 
+}
+
+
+
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+  
+ 
+  
+
+
+
+
+  
+  
+
+
+ 
+
+
+
+
+
+@media screen and (max-width:576px) {
+ 
+}
+@media screen and (min-width:577px) {
+  
+  
+}
+@media screen and (min-width:996px) {
+ 
+}

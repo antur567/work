@@ -1,0 +1,196 @@
+@import url(/reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&display=swap");
+#sect1 {
+  background-image: url(/0829/images/sect1-2.svg);
+  height: 800px;
+  border: 1px solid #000;
+  background-color: #eee;
+  font-family: "Gothic A1", sans-serif;
+}
+#sect1 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sect1 h1 {
+  margin: 40px;
+  font-size: 30px;
+  color: red;
+}
+#sect1 header img {
+  width: 10%;
+  margin: 50px;
+}
+#sect1 .contents {
+  margin: 50px;
+  font-size: 20px;
+  transform: translateX(10%);
+  line-height: 40px;
+}
+#sect1 ul {
+  margin-top: -40px;
+  transform: translateX(12%);
+  display: flex;
+  gap: 1rem;
+}
+#sect1 .btn {
+  margin: 50px;
+}
+#sect1 li {
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 50px;
+  background: #bbb;
+  line-height: 50px;
+}
+#sect1 .main {
+  display: flex;
+}
+
+#sect2 {
+  border: 1px solid #000;
+  background-color: yellow;
+  height: 820px;
+  font-family: "Gothic A1", sans-serif;
+}
+#sect2 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sect2 header img {
+  width: 10%;
+  margin: 50px;
+}
+#sect2 h1 {
+  margin: 40px;
+  font-size: 30px;
+  color: red;
+}
+#sect2 .contents2 {
+  margin: 50px;
+  font-size: 20px;
+  transform: translateX(10%);
+  line-height: 40px;
+}
+#sect2 .bottom img {
+  transform: translate(40%, -23%);
+}
+
+#sect3 {
+  background-color: red;
+  height: 820px;
+  border: 1px solid #000;
+  font-family: "Gothic A1", sans-serif;
+}
+#sect3 .contents3 {
+  margin: 50px;
+  font-size: 20px;
+  transform: translateX(10%);
+  line-height: 40px;
+}
+#sect3 .bottom img {
+  transform: translate(40%, -23%);
+}
+#sect3 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sect3 header img {
+  width: 10%;
+  margin: 50px;
+}
+
+#sect4 {
+  background-color: #eee;
+  height: 820px;
+  border: 1px solid #000;
+  font-family: "Gothic A1", sans-serif;
+}
+#sect4 .contents4 {
+  margin: 50px;
+  font-size: 20px;
+  transform: translateX(10%);
+  line-height: 40px;
+}
+#sect4 h1 {
+  margin: 40px;
+  font-size: 30px;
+  color: red;
+}
+#sect4 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sect4 header img {
+  width: 10%;
+  margin: 50px;
+}
+
+#sect5 {
+  background-image: url(/0829/images/bg-map-20200701.jpg);
+  background-size: cover;
+  border: 1px solid #000;
+  height: 820px;
+  border: 1px solid #000;
+  font-family: "Gothic A1", sans-serif;
+}
+#sect5 h1 {
+  margin: 40px;
+  font-size: 30px;
+  color: red;
+}
+#sect5 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sect5 header img {
+  width: 10%;
+  margin: 50px;
+}
+
+#sect6 {
+  background-image: url(/0829/images/bg-map-20200701.jpg);
+  background-size: cover;
+  border: 1px solid #000;
+  height: 500px;
+  border: 1px solid #000;
+  font-family: "Gothic A1", sans-serif;
+}
+#sect6 h1 {
+  margin: 40px;
+  font-size: 30px;
+  color: red;
+}
+#sect6 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sect6 header img {
+  margin: 50px;
+}
+
+footer {
+  height: 500px;
+  border: 1px solid #000;
+  background: #eee;
+}
+
+footer ul.footer2 {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 450px;
+  font-family: "Gothic A1", sans-serif;
+}
+footer ul.footer2 .gain {
+  text-decoration: underline;
+  cursor: pointer;
+}

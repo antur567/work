@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
+/*이것이 스타일 가이드*/
+/*이름을 지정해 준다mixin*/
+body {
+  font-size: 30px;
+  font-weight: 300px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6rem;
+}
+
+h1 {
+  font-weight: 500px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-weight: 500px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  color: blue;
+}

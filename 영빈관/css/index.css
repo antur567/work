@@ -1,0 +1,61 @@
+@import url("./reset.css");
+ 
+body {
+  height: 100vh;
+  background-image: url("../img/landing_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 12px;
+  width: 100%;
+  overflow: hidden;
+}
+h1 img {
+  width: 184px;
+}
+h2 img {
+  width: 522px;
+}
+
+.intro {
+  padding: 15px;
+}
+.intro p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 840px;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.btn a {
+  display: inline-block;
+  width: 256px;
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 35px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 2px solid transparent;
+}
+.btn a.home {
+  background: #0d9ab4;
+}
+.btn a.go {
+  background: #f74763;
+}
+.btn a:hover{background: #fff;}
+.btn a.home:hover{color:#0d9ab4 ;
+border-color:  #0d9ab4;
+}
+.btn a.go:hover{color:#f74763 ;
+  border-color: #f74763;
+}

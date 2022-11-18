@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPOTVNOW</title>
+  <style>
+    *{
+      background: steelblue;
+      
+      
+    }
+    @keyframes circleOta {
+      0%{left: 1%;}
+      50%{transform: translateX(50%);}
+      100%{transform:translate(100%)}
+      
+     
+    }
+    h2{
+      max-width: 1400px;
+      height: 100px;
+      margin: auto;
+     
+    
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      animation-name:circleOta;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-delay: 3s;
+      animation-duration: 5s;
+     
+    }
+    h2:hover{
+      border-color: 1px solid blue;
+      color: blueviolet;
+     
+    }
+    .box{
+      
+      align-items: center;
+      justify-content: center;
+      height:30px;
+     text-align: center;
+      border: 1px solid black;
+      margin-top: 20px;
+      color: #00000080;
+      max-width:1400px;
+      border-radius: 30px;
+      justify-content: space-between;
+      animation-name:circleOta;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-delay: 3s;
+      animation-duration: 5s;
+     
+    }
+    .box2{
+      text-align:center;
+      border: 1px solid black;
+      margin-top: 20px;
+      height: 30px;
+      color: #00000080;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width:1400px;
+      border-radius: 30px;
+      
+      animation-name:circleOta;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-delay: 3s;
+      animation-duration: 5s;
+    }
+   
+    p{
+      text-align: center;
+      color: aqua;
+     display: inline-block;
+     padding-left: 200px;
+     margin: 20px 20px;
+    }
+    
+    .login {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      border: 1px solid black;
+      border-radius: 30px;
+      max-width: 1400px;
+      height: 50px;
+      background: turquoise;
+      
+      
+      
+    }
+    #an2{
+      overflow: hidden;
+    }
+    
+    .login:hover{
+      border: 1px solid red;
+      transform:scale(1.5);
+      transition: 0.50s;
+    
+     
+    }
+    .sns{
+      text-align: center;
+      margin-top: 100px;
+      color: violet;
+      
+    }
+    .sns:hover{
+     color: tomato;
+     transform: skew(30deg);
+     transition: 0.35s;
+     
+    }
+    .email{
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+    }
+    .email:hover{
+      color: blue;
+      transform: scaleX(30%);
+      transition: 0.35s;
+    }
+    .email2{
+      text-align: center;
+      margin-top: 20px;
+      color: #fff;
+    }
+    .email2:hover{
+      color: blue;
+      transform: rotateY(50deg);
+      transition: 0.35s;
+    }
+    .an{
+      text-decoration: underline;
+    }
+
+    
+  </style>
+</head>
+<body>
+ <h2>
+  SPOTVNOW
+ </h2>
+ <div class="box">
+  이메일
+  
+ </div>
+ <div class="box2">
+  비밀번호
+ </div>
+  <p><input type="checkbox"> 
+  로그인 유지 </p>
+  <p><input type="checkbox" > 이메일 저장</p>
+  <div class="login" id="an2">
+    
+    로그인
+  </div>
+  <div class="sns">
+    SNS 계정으로 로그인하기
+  </div>
+  <div class="email">
+    이메일 찾기 | 비밀번호 찾기
+    
+  </div>
+  <div class="email2">
+    아직 회원이 아니세요? <div class="an"> 회원가입</div> 
+  </div>
+</body>
+</html>

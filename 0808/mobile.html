@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>모바일 신분증</title>
+ 
+</head>
+<style>
+@import url(/reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  max-width: 1500px;
+  background-repeat: no-repeat;
+  background-position: cover/center;
+  height: 900px;
+  margin: auto;
+  overflow-x: hidden;
+}
+#sect1 img{
+ 
+  height: 700px;
+ max-width: 1500px;
+  
+}
+
+
+
+
+
+main {
+  max-width: 1500px;
+  line-height: 50px;
+}
+
+
+
+h3 {
+  transform: translate(10%, -300%);
+}
+
+p.bank {
+  transform: translate(10%, -1550%);
+}
+
+#sect2 {
+  height: 700px;
+  margin: 200px;
+  margin-top: 150px;
+  max-width: 1500px;
+  transform: translate(-10%, -30%);
+}
+#sect2 .boan {
+  margin: 50px;
+  transform: translate(10%, 80%);
+  font-size: 25px;
+  font-line-height: 50px;
+}
+
+img.boan2 {
+  width: 40%;
+  margin-top: -400px;
+  transform: translateX(170%);
+  text-align: center;
+}
+
+img.main {
+  width: 50%;
+  transform: translate(200%, -120%);
+}
+
+h2, p {
+  line-height: 30px;
+}
+
+
+
+#sect5 {
+  height: 500px;
+  max-width: 1500px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 80px;
+}
+
+#sect5 img {
+  margin-top: 50px;
+  width: 70%;
+}
+
+b.b {
+  color: blue;
+}
+
+.boan3 {
+  transform: translate(-10%, 40%);
+  margin: 200px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.boan3 img.more {
+  width: 5%;
+  transform: translate(650%, -20px);
+  cursor: pointer;
+}
+
+.boan3 img:hover.more {
+  width: 5%;
+  transform: translate(2500%, -210px);
+  -webkit-animation-name: more;
+          animation-name: more;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes more {
+  0% {
+    transform: translate(350px, -20px);
+  }
+  100% {
+    transform: translate(380px, -20px);
+  }
+}
+
+@keyframes more {
+  0% {
+    transform: translate(350px, -20px);
+  }
+  100% {
+    transform: translate(380px, -20px);
+  }
+}
+.boan3 img {
+  width: 35%;
+  transform: translateX(250%);
+  margin-top: -300px;
+}
+
+
+#sect6 {
+  height: 500px;
+  max-width: 2500px;
+  text-align: center;
+  line-height: 100px;
+  background: lightcyan;
+}
+#sect6 h5 {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+i.i {
+  color: blue;
+}
+
+button.baro {
+  background: blue;
+  color: #fff;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+
+
+.main2:hover {
+  color: #cf3c44;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  background: #fff;
+}
+header nav ul li a {
+  font-size: 20px;
+  font-margin-right: 200px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+}
+
+nav ul li:hover a {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+nav ul li:nth-child(7) {
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  color: #058763;
+  background-color: #dbf3eb;
+}
+
+nav ul li:nth-child(8) {
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  background-color: #ffe7d8;
+  color: #cf3c44;
+}
+
+h1 {
+  cursor: pointer;
+}
+
+.banner2 {
+  max-width: 1500px;
+
+  display: flex;
+  height: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner2 img {
+  width: 50%;
+  cursor: pointer;
+}
+
+.banner2 figure img.btn2 {
+  width: 125%;
+}
+
+footer {
+
+  height: 300px;
+  display: flex;
+  background: aqua;
+  justify-content: space-around;
+  max-width: 1500px;
+}
+
+h2 img {
+  width: 90%;
+  transform: translate(100%);
+  margin-top: -200px;
+}
+
+h3 img {
+  margin-top: 950px;
+  width: 150%;
+  transform: translate(10%);
+}
+
+address {
+  margin-top: 130px;
+  margin-left: -150px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h4 img {
+  margin-top: 50px;
+  width: 50%;
+  margin-right: 150px;
+}
+
+footer ul {
+  display: flex;
+  margin: 60px;
+}
+footer ul a {
+  font-size: 25px;
+  color: #fff;
+}
+
+footer ul.co li:hover a {
+  color: blue;
+}
+
+footer ul.co .co3 {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  h1 img {
+    width: 70%;
+  }
+  nav ul li {
+    display: none;
+  }
+  #sect1{
+    text-align: center;
+    height: 900px;
+  }
+  #sect1 img{
+    width: 150px;
+  }
+  #sect1 p.main2 {
+    transform: translateY(-800%);
+    margin: 20px;
+    font-size: 30px;
+  }
+  #sect1 p.bank2{
+    transform: translateY(-2400%);
+    margin: 20px;
+    font-size: 13px;
+  }
+  #sect1 img{
+    width: 100%;
+  }
+  #sect1 .btn{
+ transform: translateY(-850%);
+ margin: 20px;
+ display: none;
+
+ }
+ #sect3 img.more{
+  display: none;
+  
+  
+ }
+ p.mobile2{
+    transform: translateY(-1490%);
+    line-height: 50px;
+   height: 50px;
+    background:blue;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+
+  }
+ #sect1 .btn button{
+  border: none;
+  background: #00000080;
+  color: #fff;
+  cursor: pointer;
+ }
+ #sect1 img.vis{
+  height: 500px;
+  width: 500px;
+  transform: translate(-10%,-150%);
+  
+ }
+ 
+  #sect2 h6{
+    font-weight: bold;
+   font-size: 15px;
+ 
+  }
+ #sect2{
+   transform: translate(30%,-30%);
+  margin-left: 100px;
+   text-align: center;
+   margin-top: 50px;
+   
+  
+  }
+  #sect2 img{
+    width: 200%;
+    transform: translate(-20%);
+  }
+  b.b2{
+    color: blue;
+  }
+  #sect2 p.p2{
+    font-size: 13px;
+  }
+ #sect3{
+  
+  font-size: 25px;
+  height: 350px;
+  text-align: center;
+  background:lightblue;
+  line-height: 45px;
+  margin-top: -600px;
+ 
+
+ }
+ 
+ #sect3 p{
+  font-size: 13px;
+ 
+  
+ }
+ #sect3 img{
+  width: 35%;
+  transform: translateX(-5%);
+  
+ }
+
+ 
+
+ 
+  
+  footer ul li  a{
+    font-size: 10px;
+    display: inline-block;
+    width: 100px;
+    margin-right: -50px;
+ 
+    
+    
+  }
+  footer ul.co li.co4 a {
+    transform: translateX(30%);
+  }
+  h3 img {
+    display: none;
+  }
+  address {
+    display: none;
+  }
+  h4 img {
+    width: 40%;
+  }
+  .banner2 img {
+    width: 90%;
+  }
+
+
+  
+}
+
+
+
+
+
+
+#sect5 {
+  height: 300px;
+  max-width: 1500px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  line-height:30px;
+}
+
+#sect5 img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+#sect6 {
+  height: 350px;
+}
+#sect6 h5 {
+  font-size: 13px;
+  font-weight: normal;
+  
+}
+#sect6 p {
+  font-size: 13px;
+  font-weight: normal;
+  
+}
+
+h1.gnb1 {
+  width: 10%;
+  cursor: pointer;
+}
+
+nav ul li:nth-child(7) {
+  display: block;
+}
+nav ul li:nth-child(7) a {
+  color: #058763;
+  font-size: 15px;
+}
+
+nav ul li:nth-child(8) {
+  display: block;
+}
+nav ul li:nth-child(8) a {
+  color: #cf3c44;
+  font-size: 15px;
+}
+
+footer {
+
+  height: 200px;
+  
+  background: bisque;
+  
+  max-width: 1500px;
+}
+
+@media screen and (min-width: 1020px) {
+  h1.gnb1 {
+    display: none;
+  }
+  nav ul li:nth-child(7) {
+    display: block;
+  }
+  nav ul li:nth-child(7) a {
+    color: #058763;
+    font-size: 20px;
+  }
+  nav ul li:nth-child(8) {
+    display: block;
+  }
+  nav ul li:nth-child(8) a {
+    color: #cf3c44;
+    font-size: 20px;
+  }
+  #sect1 p.main2 {
+    transform: translateY(-500%);
+    margin: 20px;
+    font-size: 30px;
+  }
+  #sect1 p.bank2{
+    transform: translateY(-1500%);
+    margin: 20px;
+  }
+  p.mobile2{
+   display: none;
+  }
+  
+
+ #sect1 .btn{
+ transform: translateY(-850%);
+ margin: 20px;
+
+ }
+ 
+ #sect1 .btn button{
+  border: none;
+  background: #00000080;
+  color: #fff;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 60px;
+  transform: translateY(60%);
+  
+ }
+ #sect1 img.vis{
+  height: 700px;
+  transform: translate(100%,-140%);
+  
+ }
+  #sect2{
+   font-size: 40px;
+   transform: translateY(-20%);
+   margin-top: -800px;
+   
+  
+  }
+  #sect2 img{
+    width: 30%;
+    transform: translate(250%,-35%);
+   
+  }
+  b.b2{
+    color: blue;
+  }
+  #sect2 p.p2{
+    font-size: 20px;
+  }
+ 
+ #sect3{
+ 
+  font-size: 40px;
+ 
+  margin-top: -600px;
+  height: 520px;
+  
+ 
+  justify-content: left;
+
+  
+  background: cyan;
+ }
+ #sect3 img.more{
+  width: 5%;
+  transform: translate(480%,-700%);
+  /* animation-name: main;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s; */
+  
+  
+ }
+ #sect3 img:hover.more{
+  width: 5%;
+  transform: translate(480%,-700%);
+  animation-name: main;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+ }
+
+ @keyframes main {
+  0%{transform: translate(500%,-700%);}
+  100%{transform: translate(550%-700%);}
+}
+ #sect3 h6{
+  margin: 30px;
+  
+ }
+ #sect3 p{
+  font-size: 20px;
+  margin: 20px;
+ }
+ #sect3 img{
+  width: 40%;
+  transform: translate(150%,-50%);
+  
+ }
+
+ 
+  #sect6 {
+    height: 500px;
+    max-width: 2500px;
+    text-align: center;
+    line-height: 100px;
+    background: lightcyan;
+  }
+  #sect6 h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  #sect6 p {
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+  #sect5 {
+    height: 500px;
+    max-width: 1500px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 80px;
+  }
+  #sect5 img {
+    margin-top: 50px;
+    width: 70%;
+  }
+  .main2:hover {
+    color: #cf3c44;
+  }
+  footer {
+   
+    height: 300px;
+    display: flex;
+    background: aqua;
+    justify-content: space-around;
+    max-width: 1500px;
+  }
+}
+</style>
+<body>
+ <header>
+  <nav>
+    <ul>
+      <h1><img src="./image/모바일 신분증 로고.svg" alt=""></h1>
+      <li ><a href="#">모바일 신분증이란</a></li>
+      <li ><a href="#">이용안내</a></li>
+      <li ><a href="#">발급안내</a></li>
+      <li  ><a href="#">새소식</a></li>
+      <li ><a href="#">문의하기</a></li>
+      <li><a href="#">개발지원센터</a></li>
+      <li><a href="#">도난/분실신고</a></li>
+      <h1 class="gnb1"><img src="./image/btn_gnb.svg" alt=""></h1>
+    </ul>
+  </nav>
+ </header>
+ <main>
+
+<section id="sect1">
+ <img src="./image/img_visual_01.png" alt="">
+<p class="main2">운전면허증이<br/>
+  스마트폰으로 <strong>
+    쏙!<br/>
+    모바일 운전면허증
+  </strong></p>
+  <p class="bank2">은행에서 편의점까지 온, 오프라인 어디서나 편리하게 이용해보세요.</p>
+  <div class="btn">
+    <button><p>One Store</p></button>
+    <button><p>Google Play</p></button>
+    <button><p>App Store</p></button>
+  </div>
+  <img class="vis" src="./image/img_main_vis.png" alt="">
+  <p class="mobile2">모바일 신분증 앱 다운로드</p>
+   
+  
+    
+ 
+
+</section>
+  <section id="sect2">
+    <h6>내 정보의 주인은<br/>
+      바로 <b class="b2">나</b>입니다</h6>
+      <p class="p2">내 신원정보를 스마트폰에 넣고<br/>
+        필요한 정보만 꺼내 쓰는 모바일 운전면허증</p>
+        <img src="./image/QR코드를 화면에 띄운 이미지입니다. 맥주사는데 이름_ 주민번호_ 주소까지 다_ (1).png" alt="">
+        
+  </section>
+  <section id="sect3">
+    <h6>모바일 운전면허증을<br/>
+      발급받으세요.</h6>
+      <p>IC 운전면허증으로 교체하면 스마트폰에 모바일 운전면허증을<br/>
+        직접 발급 받을 수 있습니다.</p>
+        <p class="mo">모바일 운전면허증 발급방법 알아보기</p>  
+        <img class="more" src="./image/ico_body_more.svg" alt="">
+      
+        <img src="./image/모바일 운전면허증 QR정보로 운전면허자격정보_ 신원증명이 가능합니다.png" alt="">
+  </section>
+
+  
+
+ <section id="sect5">
+<h4>언제, 어디서나<br/>
+  <b class="b">모바일 운전면허증</b>으로 사용 가능해요</h4>
+  <p>신분증이 필요한 온∙오프라인 모든 곳, 언제든지 모바일 운전면허증 하나로 OK</p>
+  <img src="./image/관공서 _ 민원서류 발급이 필요한 경우_ 간편인증 _ 다양한 서비스.png" alt="">
+ </section>
+ <section id="sect6">
+<h5>운영중인 서비스와 연계하여 보다 편리한 <i class="i">신원확인 서비스</i>를 제공해보세요.</h5>
+<p>정부기관이나 기업의 창구 및 모바일 앱 등에서 차별화 된 서비스를 제공할 수 있습니다.</p>
+<button class="baro">개발지원센터바로가기</button>
+ </section>
+  
+
+
+
+
+   
+ </main> 
+ 
+  <div class="banner2">
+  <figure>
+    <img src="./image/행정안전부.png" alt="">
+  </figure>
+  <figure>
+    <img src="./image/경찰청.png" alt="">
+  </figure>
+  <figure>
+    <img src="./image/조폐공사.png" alt="">
+  </figure>
+  <figure>
+    <img src="./image/도로교통공단.png" alt="">
+  </figure>
+  <figure>
+    <img class="btn2" src="./image/btn_sub_v_pause_black.svg" alt="">
+  </figure>
+</div>
+<footer>
+
+  <ul class="co">
+    <li class="co2"><a href="#">이용약관|</a></li> 
+    <li class="co3"><a href="#">개인정보처리방침</a></li>
+    <li class="co4"><a href="#">|고객센터</a></li>  
+  
+  </ul>
+  
+  <h3><img   src="./image/행정안전부 로고.png" alt=""></h3>
+    <address>(30128) 세종특별자치시 정부2청사로 13(나성동)<br/>
+      (30116) 세종특별자치시 한누리대로 411(어진동)<br/>
+      (30116) 세종특별자치시 가름로 143(어진동)</address>
+    <h4><img src="./image/과학기술정보통신부 WA(WEB접근성) 품질인증 마크_웹와치(WebWatch) 2022.5.20 _ 202.png" alt=""></h4>
+</footer>
+
+  
+</body>
+</html>

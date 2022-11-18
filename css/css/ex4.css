@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*변수는 달라로 시작한다*/
+.buttons .btn {
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.cart {
+  background-color: orange;
+}
+
+.ok {
+  background-color: red;
+}
+
+.cancel {
+  background-color: blue;
+}

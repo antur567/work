@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="그룹_201524" data-name="그룹 201524" transform="translate(18364 8433)">
+        <path id="사각형_280110" data-name="사각형 280110" transform="translate(-18364 -8433)" style="fill:none" d="M0 0h20v20H0z"/>
+        <g id="그룹_201516" data-name="그룹 201516" transform="translate(-21279.695 -8027.118)">
+            <g id="그룹_201509" data-name="그룹 201509" transform="translate(2920.457 -402.882)">
+                <g id="그룹_201508" data-name="그룹 201508">
+                    <path id="패스_15663" data-name="패스 15663" class="cls-2" d="M2922.193-402.662a1.371 1.371 0 0 0-1.061-.183l6.312 6.312 2.046-2.046z" transform="translate(-2921.132 402.882)"/>
+                </g>
+            </g>
+            <g id="그룹_201511" data-name="그룹 201511" transform="translate(2919.396 -402.333)">
+                <g id="그룹_201510" data-name="그룹 201510">
+                    <path id="패스_15664" data-name="패스 15664" class="cls-2" d="M2919.674-401.983a1.374 1.374 0 0 0-.278.826v11.248a1.372 1.372 0 0 0 .278.825l6.447-6.45z" transform="translate(-2919.396 401.983)"/>
+                </g>
+            </g>
+            <g id="그룹_201513" data-name="그룹 201513" transform="translate(2927.225 -398.111)">
+                <g id="그룹_201512" data-name="그룹 201512">
+                    <path id="패스_15665" data-name="패스 15665" class="cls-2" d="m2936.587-394.051-1.838-1.029-2.229 2.228 2.229 2.229 1.839-1.029a1.359 1.359 0 0 0 .7-1.2 1.358 1.358 0 0 0-.701-1.199z" transform="translate(-2932.52 395.08)"/>
+                </g>
+            </g>
+            <g id="그룹_201515" data-name="그룹 201515" transform="translate(2920.457 -395.232)">
+                <g id="그룹_201514" data-name="그룹 201514">
+                    <path id="패스_15666" data-name="패스 15666" class="cls-2" d="m2927.444-390.373-6.312 6.311a1.372 1.372 0 0 0 .314.038 1.378 1.378 0 0 0 .746-.221l7.3-4.083z" transform="translate(-2921.132 390.373)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

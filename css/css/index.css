@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora&family=Rubik&display=swap");
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.col-12 {
+  grid-column: 1/-1;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+section article {
+  font-family: "Lora", serif;
+  margin-top: 29px;
+  text-align: center;
+}
+section article img {
+  width: 100%;
+}
+
+@media screen and (min-width: 797px) {
+  .col-md-6 {
+    grid-template-columns: span 6;
+  }
+}
+@media screen and (max-width: 698px) {
+  .col-sm-12 {
+    grid-template-columns: span 12;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+h1 {
+  font-size: 35px;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hambuger {
+  display: none;
+  width: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.hambuger span {
+  display: block;
+  background: #444;
+  height: 5px;
+  margin: 5px 0;
+}
+
+.banner {
+  height: 500px;
+  background-image: url(/travel/images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Lora", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.banner h2 {
+  font-size: 45px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+.banner h3 {
+  font-size: 27px;
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+.banner p {
+  font-size: 16px;
+}
+
+nav ul {
+  display: flex;
+  font-size: 20px;
+  font-family: "Bree Serif", serif;
+}
+nav ul li:hover a {
+  color: orange;
+}
+nav ul a {
+  padding: 10px;
+}
+
+@media screen and (max-width: 698px) {
+  nav {
+    display: none;
+  }
+  .col-sm-12 {
+    grid-template-columns: span 12;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .header .hambuger {
+    display: block;
+  }
+  .banner {
+    height: 350px;
+  }
+  .banner h2 {
+    font-size: 25px;
+  }
+  .banner h3 {
+    font-size: 18px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+}
+footer {
+  display: flex;
+  border: 1px solid #000;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5019607843);
+  height: 57px;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+}

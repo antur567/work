@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KaKao</title>
+  <link rel="stylesheet" href="/css/css/kakao.css">
+</head>
+<body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
+@import url(/reset.css);
+body {
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  height: 2000px;
+}
+
+header {
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  max-width: 1250px;
+}
+
+header nav ul {
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+main {
+  height: 1600px;
+  max-width: 1200px;
+}
+
+nav ul img {
+  cursor: pointer;
+}
+
+.banner {
+  text-align: center;
+  line-height: 40px;
+  margin: 20px;
+  position: relative;
+  font-size: 20px;
+}
+
+figure img {
+  width: 50%;
+}
+
+.banner img {
+  padding: 20px;
+  margin-top: 50px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 13px;
+ text-align: center;
+  font-weight: bold;
+  line-height: 20px;
+}
+figcaption p {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.5019607843);
+  display: flex;
+  width: 1400px;
+  max-width: 1300px;
+  border: 1px solid #000;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  padding: 20px;
+}
+
+.inner ul {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.inner ul li a {
+  font-weight: bold;
+}
+
+.inner p {
+  font-weight: bold;
+}
+
+.inner li:hover a {
+  color: aquamarine;
+}
+
+.inner p {
+  text-align: center;
+  cursor: pointer;
+}
+
+.inner p:hover {
+  color: aqua;
+}
+
+.inner span {
+  text-align: center;
+}
+
+img.gnb1 {
+  cursor: pointer;
+}
+
+img.gnb2 {
+  cursor: pointer;
+}
+
+img.gnb3 {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 690px) {
+  header nav ul {
+    background: lightblue;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  header nav ul li {
+    border-bottom: 1px solid #fff;
+    padding: 2px;
+  }
+  header nav ul li:hover a {
+    color: aqua;
+  }
+  header h1 {
+    justify-content: center;
+    align-items: center;
+    transform: translateX(130px);
+  }
+  img.gnb1, .gnb2, .gnb3 {
+    cursor: pointer;
+    margin-top: 20px;
+    transform: translate(500%, -50%);
+  }
+  .inner2 {
+    margin-top: 200px;
+  }
+  .banner img {
+    width: 45%;
+    display: flex;   
+    margin-left: -20px;
+    margin-bottom: -20px;
+    margin-top: 60px;
+    
+  }
+  h4, h5 {
+    text-align: left;
+    transform: translateX(22%);
+    
+  
+    margin-left: 80px;
+    font-size: 15px;
+    margin-top: -100px;
+  }
+  h4{
+    margin-top: -150px;
+  }
+  .banner h4:hover {
+    color: red;
+  }
+ 
+  figcaption {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+   text-align: center;
+    font-weight: bold;
+  }
+  figcaption p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  figure img {
+    width: 100%;
+    margin-top: 50px;
+    transform: translate(30%);
+  }
+}
+.banner h4.a1{
+  color: red;
+}
+.banner h5.b1{
+  color: pink;
+}
+.banner h4.a2{
+  color: orange;
+}
+.banner h5.b2{
+  color: teal;
+}
+.banner h4.a3{
+  color: yellowgreen;
+}
+.banner h5.b3{
+  color: firebrick;
+}
+.banner h4.a4{
+  color: green;
+}
+.banner h5.b4{
+  color: lightblue;
+}
+.banner h4.a5{
+  color: blue;
+}
+.banner h5.b5{
+  color: lightcoral;
+}
+.banner h4.a6{
+  color: blueviolet;
+}
+.banner h5.b6{
+  color: lawngreen;
+}
+.banner h4.a7{
+  color: violet;
+}
+.banner h5.b7{
+  color:tan;
+}
+.banner h4.a8{
+  color: pink;
+}
+.banner h5.b8{
+  color:goldenrod;
+}
+@media screen and (min-width: 691px) {
+  img.gnb1 {
+    width: 2.5%;
+  }
+  img.gnb2 {
+    width: 2.5%;
+  }
+  img.gnb3 {
+    width: 2.5%;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+    gap: 1rem;
+    font-size: 13px;
+  }
+  .banner h4, h5 {
+    display: none;
+  }
+  nav ul li:hover {
+    background: yellow;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 1250px;
+    margin: 20px;
+  }
+  h4, h5 {
+    text-align: left;
+    transform: translateX(30%);
+    font-size: 15px;
+    margin-top: -150px;
+  }
+}
+figure img {
+  width: 60%;
+}
+figure figcaption {
+  text-align: left;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+figure figcaption p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (min-width: 1020px) {
+  img.gnb1 {
+    margin-left: -50px;
+    margin-right: -150px;
+  }
+  img.gnb2 {
+    margin-left: -50px;
+    margin-right: -90px;
+  }
+  img.gnb3 {
+    margin-left: -100px;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+    gap: 1.5rem;
+    font-size: 20px;
+  }
+  nav ul li:hover {
+    background: yellow;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  .banner img {
+    width: 24%;
+    margin-top: 80px;
+  }
+  .banner h1 {
+    margin-top: 50px;
+  }
+  figure {
+    display: flex;
+  }
+  figure img {
+    width: 23%;
+  }
+  .inner2 {
+    margin: auto;
+  }
+  footer {
+    display: block;
+  }
+  figcaption {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 1250px;
+    margin: 20px;
+  }
+  .banner2, .banner3 {
+    width: 80%;
+  }
+}
+  </style>
+  <header>
+    <h1>Kakaobank</h1>
+    <nav>
+    
+
+        
+        <ul>
+          <li><a href="#">은행소개</a></li>
+          <li><a href="#">소식</a></li>
+          <li><a href="#">혜택</a></li>
+          <li><a href="#">서비스</a></li>
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">이벤트</a></li>
+     
+        
+      </ul>
+      
+    </nav>  
+    <img class="gnb1" src="./image/gnb1.png" alt="">
+        <img class="gnb2"  src="./image/gnb2.png" alt="">
+        <img class="gnb3" src="./image/gnb3.png" alt="">
+
+     
+  </header>   
+  <main>
+  
+      <div class="inner2">
+        <div class="banner">
+          <h1>신규신청</h1>
+          <p>신청하고자 하는 카드 종류를 선택해주세요</p>
+          
+         <img  src="./image/lioncard1.png" alt="">
+         
+         <h4 class="a1">프렌즈 라이언 체크카드<br/></h4>
+        <h5 class="b1">
+       쓸 때마다 캐시백, 주말엔 2배
+            전원실적,<br/>지급한도 제한없이
+          국내외 가맹점<br/>
+          이용금액의0.2%가 추가로 적립됩니다.
+        </h5>
+         
+        <img  src="./image/lioncard2.png" alt="">
+        <h4 class="a2">프렌즈 라이언 체크카드<br/></h4>
+        <h5 class="b2">
+          쓸 때마다 캐시백, 주말엔 2배
+               전원실적,<br/>지급한도 제한없이
+             국내외 가맹점<br/>
+             이용금액의0.2%가 추가로 적립됩니다.
+           </h5>
+        <img  src="./image/paycard1.png" alt="">
+        <h4 class="a3">프렌즈 라이언 체크카드<br/></h4>
+        <h5 class="b3">
+          쓸 때마다 캐시백, 주말엔 2배
+               전원실적,<br/>지급한도 제한없이
+             국내외 가맹점<br/>
+             이용금액의0.2%가 추가로 적립됩니다.
+           </h5>
+        <img  src="./image/라이언카드 (1).png" alt="">
+        <h4 class="a4">프렌즈 라이언 체크카드<br/></h4>
+        <h5 class="b4">
+          쓸 때마다 캐시백, 주말엔 2배
+               전원실적,<br/>지급한도 제한없이
+             국내외 가맹점<br/>
+             이용금액의0.2%가 추가로 적립됩니다.
+           </h5>
+        <img src="./image/라이언카드 (2).png" alt="">
+        <h4 class="a5">프렌즈 라이언 체크카드<br/></h4>
+        <h5 class="b5">
+          쓸 때마다 캐시백, 주말엔 2배
+               전원실적,<br/>지급한도 제한없이
+             국내외 가맹점<br/>
+             이용금액의0.2%가 추가로 적립됩니다.
+           </h5>
+        <img  src="./image/라이언카드 (3).png" alt="">
+        <h4 class="a6">프렌즈 라이언 체크카드<br/></h4>
+        <h5 class="b6">
+          쓸 때마다 캐시백, 주말엔 2배
+               전원실적,<br/>지급한도 제한없이
+             국내외 가맹점<br/>
+             이용금액의0.2%가 추가로 적립됩니다.
+           </h5>
+        <img src="./image/라이언카드 (4).png" alt="">
+        <h4 class="a7">프렌즈 라이언 체크카드<br/></h4>
+        <h5 class="b7">
+          쓸 때마다 캐시백, 주말엔 2배
+               전원실적,<br/>지급한도 제한없이
+             국내외 가맹점<br/>
+             이용금액의0.2%가 추가로 적립됩니다.
+           </h5>
+        <img src="./image/라이언카드.png" alt="">
+        <h4 class="a8">프렌즈 라이언 체크카드<br/></h4>
+        <h5 class="b8">
+          쓸 때마다 캐시백, 주말엔 2배
+               전원실적,<br/>지급한도 제한없이
+             국내외 가맹점<br/>
+             이용금액의0.2%가 추가로 적립됩니다.
+           </h5>
+        </div>
+      </div>
+   
+      <!-- figure /figure구분  -->
+      <figure>
+        <img  src="./image/카카오뱅크 이체 및 계좌개설 이용화면.png" alt="">
+        <figcaption>
+          모바일로 더 손쉬운
+          계좌개설,
+          간편한 이체
+          <p >
+            인증서, OTP없이 계좌 개설이 간편합니다.
+            여러 건의 이체도 몇번의 터치로 손쉽게 보낼 수 있습니다.
+          </p>
+        </figcaption>
+        
+        <img  src="./image/예금_적금 가입 이용화면.png" alt="">
+        <figcaption>
+          우대조건 없이 합리적인
+          예금과 적금
+          <p >
+            기대했던 금리와 다르게 복잡한 우대조건에 실망한 적이 있었나요?
+            카카오뱅크의 예금,적금은 숨겨진 우대조건 없이 누구에게나 편리하고 합리적입니다.
+          </p>
+        </figcaption>
+
+      </figure>
+    
+
+   
+    </div>
+
+  </main>
+  <footer>
+    <div class="inner">
+      <ul>
+        <li><a href="#">모바일뱅킹 서비스 이용약관</a></li>
+        <li><a href="#">전자금융거래 기본약관</a></li>
+        <li><a href="#">위치기반서비스 이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">전자민원접수</a></li>
+        <li><a href="#">보호금융상품등록부</a></li>
+        <li><a href="#">상품공시설</a></li>
+        <li><a href="#">경영공시</a></li>
+        <li><a href="#">공지사항</a></li>
+       
+      </ul>
+      <p>대표전화 1559-3333</p>
+      <p>copyright ⓒ kakaobank corp.All right reserved.</p>
+    </div>
+   
+ 
+  </footer>
+ 
+</body>
+</html>

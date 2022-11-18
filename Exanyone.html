@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racing</title>
+  <style>
+    *{
+      text-decoration: none;
+    
+      padding: 0;
+      background: cornflowerblue;
+      
+    }
+    .nav{
+      
+      animation-name:circleOta;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-delay: 1s;
+      animation-duration: 5s;
+
+    }
+    
+    h2{
+      margin: auto;
+      text-align: center;
+      max-width: 1400px;
+      font-weight: bold;
+      font-size: 50px;
+      margin-top: 10px;
+      border: 1px solid red;
+      cursor: pointer;
+    }
+    h2:hover{
+      border-color: aquamarine;
+      background: violet;
+
+    }
+   
+    .circle{
+      width: 150px;
+      height: 150px;
+      background-color: aqua;
+      border-radius: 100px;
+      margin-left: 100px;
+      top: 1%;
+      font-size: 100px;
+      text-align: center;
+      justify-content: space-between;
+      text-align: center;
+      color: chocolate;
+      margin-top: 20px;
+      cursor: pointer;
+      border: 2px solid red;
+      animation-name:circleOta;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-delay: 1s;
+      animation-duration: 5s;
+
+      
+      
+     
+    }
+    
+    .box
+    {
+      width: 200px;
+      height: 150px;
+      background-color: blue;
+      margin-left: 100px;
+      margin-top: 20px;
+      font-size: 100px;
+      text-align: center;
+      justify-content: space-between;
+      text-align: center;
+      color: cadetblue;
+      cursor: pointer;
+      border: 3px solid red;
+      animation-name:circleOta;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-delay: 3s;
+      animation-duration: 3s;
+      
+    }
+    .rect{
+      width: 100px;
+      height: 150px;
+      border-radius: 10px;
+      background-color: blue;
+      margin-left: 100px;
+      margin-top: 20px;
+      font-size: 80px;
+      text-align: center;
+      justify-content: space-between;
+      text-align: center;
+      color: violet;
+      cursor: pointer;
+      border: 4px solid red;
+      animation-name:circleOta;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-delay: 3s;
+      animation-duration: 3s;
+    }
+    .box2{
+      width: 200px;
+      height: 100px;
+      background-color: brown;
+      margin-left: 100px;
+      margin-top: 20px;
+      font-size: 80px;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      cursor: pointer;
+      border: 5px solid red;
+      animation-name:circleOta;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-delay: 3s;
+      animation-duration: 3s;
+    }
+    .box3{
+      width: 200px;
+      height: 200px;
+      background: blueviolet;
+      margin-left: 100px;
+      margin-top: 20px;
+      font-size: 100px;
+      text-align: center;
+      justify-content: space-between;
+      text-align: center;
+      cursor: pointer;
+      border: 6px solid red;
+     
+    }
+    .circle:hover{
+    
+     transition: 0.35s;
+     transform: translate(-50%);
+     
+    }
+    .box:hover{
+      transform: rotateX(180deg);
+      transition: 0.35s;
+    }
+    .rect:hover{
+      transform: scale(1.5);
+      transition: 0.5s;
+    }
+    .box3:hover{
+      transform: skew(50deg);
+      transition: 0.35s;
+
+    }
+    @keyframes circleOta {
+      0%{left: 1%;}
+      50%{transform: translateX(50%);}
+      100%{transform:translate(100%)}
+      
+     
+    }
+    
+  </style>
+</head>
+<body>
+
+  <h2>Racing</h2>
+
+  <div class="nav">
+    <div class="circle">
+          1
+    </div>
+    
+    <div class="box">
+          2
+    </div>
+    <div class="rect">
+        3
+    </div>
+    <div class="box2">
+        4
+    </div>
+    <div class="box3">
+          5
+    </div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.frame {
+  display: flex;
+  flex-wrap: wrap;
+}
+.frame div {
+  background: lightblue;
+  width: 150px;
+  height: 150px;
+  color: blanchedalmond;
+  margin: 1rem;
+  text-align: center;
+  line-height: 150px;
+  /*가운데 정렬*/
+  border: 10px solid #000;
+  /*왼쪽 모서리 오른쪽 왼쪽 아래*/
+  /*시계방향으로 돈다 ㅎㅎ*/
+}
+.frame div:nth-child(1) {
+  border-radius: 30%;
+}
+.frame div:nth-child(2) {
+  border-radius: 20%;
+}
+.frame div:nth-child(3) {
+  border-radius: 40%;
+}
+.frame div:nth-child(4) {
+  border-radius: 50%;
+}
+.frame div:nth-child(5) {
+  border-radius: 10%;
+}
+.frame div:nth-child(6) {
+  border-radius: 20px 50px 0px 0px;
+}
+.frame div:nth-child(7) {
+  border-radius: 10px 60px 20px 20px;
+}
+.frame div:nth-child(8) {
+  border-radius: 50% 50% 50% 60px;
+}

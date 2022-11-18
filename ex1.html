@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>block,lnline</title>
+    <style>
+        div {
+         max-width:1000px;
+          margin: auto;
+        border: 2px solid cyan;
+        padding:0px 30px;  
+
+      }  
+        p{
+           background: blue;
+          padding: 10px;
+  
+        }
+      div.container:hover{
+    border-color: red;
+    border-width:2px ;
+  }
+  img{width:100%;}
+  .html{
+    background: blueviolet;
+
+  }
+  .css{
+    background: violet;
+  }
+  .js{
+    background: yellow;
+  }
+       
+
+      div.container  .item{border: 5px dashed #000;}
+      figure{float: left;}
+     .item{overflow: hidden;}
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+        <h1> <a href="https://www.naver.com">Html</a></h1>
+         
+        <html></html>
+        <ul>
+          <li><a href="#html">Html</a></li> 
+
+          <li><a href="#css">Css</a></li>
+
+          <li><a href="#js">Javascript</a></li>
+        </ul>
+        <div class=" item html">
+          <figure>
+            <img src="img/Html.png">
+          </figure>
+            <p id="html">
+              하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML,
+              문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 페이지를 위한
+              지배적인 마크업 언어다. 또한, HTML은 제목, 단락, 목록 등과 같은 본문을
+              위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로
+              구조적 문서를 만들 수 있는 방법을 제공한다
+            </p>
+        </div>
+          <div class=" item css">
+            <figure>
+              <img src="img/css.png">
+            </figure>
+            <p id="css">
+              종속형 시트 또는 캐스케이딩 스타일 시트는 마크업 언어가 실제 표시되는
+              방법을 기술하는 스타일 언어로, HTML과 XHTML에 주로 쓰이며, XML에서도
+              사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가
+              높다
+            </p>
+          </div>
+          <div class=" item js">
+            <figure>
+              <img src="img/js.png">
+            </figure>
+            <p id="js">
+              자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹
+              브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할
+              수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버
+              프로그래밍에도 사용되고 있다
+            </p>
+          </div>
+    </div>
+    <a href="#">Up</a>  
+  
+    </ul>
+  </body>
+ 
+</html>
+/*#   0콤마 0*/
+//#써진 페이지로 가라html 참조//
+//figure중요한 부분
+//hover는 눌르면 색깔 변하는 것
+
+

@@ -1,0 +1,61 @@
+body {
+  max-width: 1200px;
+}
+
+h1 img {
+  width: 50%;
+  margin: 10px;
+}
+
+img {
+  cursor: pointer;
+}
+
+figure {
+  width: 70%;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+  padding: 50px;
+  margin: 20px;
+}
+
+.btn {
+  height: 100px;
+  line-height: 50px;
+  text-align: center;
+  width: 100px;
+}
+
+.scanner {
+  border: 1px solid #000;
+  width: 100px;
+  height: 50px;
+  background: blue;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+ul li {
+  text-decoration: none;
+  padding: 10px;
+}
+ul a {
+  line-height: 100px;
+  text-decoration: none;
+  color: blue;
+}

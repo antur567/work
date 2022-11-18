@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 600px;
+  display: flex;
+  margin: auto;
+}
+.social li {
+  border: 1px solid #000;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  /*자동으로 변환해준다: 앞글자만 변환 해준다 ㅎㅎcapitalize
+  몽창 대문자로 바꿔준다 uppercase*/
+}
+.social li a {
+  text-decoration: none;
+  color: blue;
+  text-transform: capitalize;
+}

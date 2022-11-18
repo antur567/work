@@ -1,0 +1,112 @@
+body {
+  max-width: 1200px;
+}ogleapis.com/css2?family=Raleway&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  max-width: 1500px;
+  margin: auto;
+}
+
+h1 img {
+  width: 70%;
+}
+
+ul {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  height: 100px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main2 {
+  max-width: 1500px;
+  border: 1px solid #000;
+  margin: auto;
+  height: 1000px;
+}
+
+li {
+  list-style: none;
+  height: 100px;
+  width: 200px;
+  line-height: 100px;
+  text-align: center;
+  background: orange;
+}
+
+li:hover a {
+  color: blueviolet;
+  transition: 0.35s;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+body a {
+  color: skyblue;
+}
+
+footer {
+  border: 1px solid #000;
+  display: flex;
+  width: inherit;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  font-size: 30px;
+  font-weight: bold;
+}
+footer p {
+  align-items: center;
+  color: aqua;
+}
+footer p:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 598px) {
+  ul {
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer {
+    height: 200px;
+  }
+  footer p {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  footer p:hover {
+    color: violet;
+  }
+}
+@media screen and (min-width: 798px) {
+  ul {
+    font-size: 30px;
+    font-weight: normal;
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer {
+    height: 180px;
+  }
+  footer p {
+    font-size: 40px;
+    font-weight: normal;
+  }
+  footer p:hover {
+    color: red;
+  }
+}

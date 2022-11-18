@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.buttons, .cancel, .ok, .cart {
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.buttons:hover, .cancel:hover, .ok:hover, .cart:hover {
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.53);
+}
+
+/*버튼 속성을 사용하고 싶으면 
+@extends :이것도 갔다쓰는 것이다
+*/
+.cart {
+  background-color: skyblue;
+}
+
+.ok {
+  background-color: red;
+}
+
+.cancel {
+  background-color: blue;
+}

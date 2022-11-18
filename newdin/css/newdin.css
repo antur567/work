@@ -1,0 +1,237 @@
+
+
+ body{
+  background:url(/image/bg_ground.gif),url(/image/bg_buildings.gif);
+  background-position-y:bottom,center;
+  background-repeat:no-repeat;
+  background-repeat :repeat-x,repeat-x;
+  background-size: 50%,50%;
+  
+ }
+.bulid img{
+  width: 70%;
+
+}
+
+
+
+
+.cloud{
+  width: 150%;
+ margin-top: -400px;
+ animation-name:cloud;
+ animation-timing-function: 5s;
+ animation-duration: 3s;
+ animation-delay: 3s;
+ animation-fill-mode: both;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+.cloudLt{
+margin-left: -300px;
+}
+
+
+@keyframes cloud {
+  0%{transform: translateY(20px);}
+  100%{transform: translateY(-40px);}
+  
+}
+li{
+  list-style: none;
+}
+
+
+
+
+header{
+  max-width: 1400px;
+
+  height: 150px;
+  margin: auto;
+ 
+ 
+}
+header ul{
+  display:flex ;
+  justify-content: space-between;
+  vertical-align: middle;
+  
+ 
+ 
+ 
+}
+
+
+img{
+  width: 75%;
+  margin: 40px;
+  text-align: center;
+  
+}
+.play{
+  margin-top: 70px;
+  width: 80%;
+}
+
+main {
+
+  padding-left: 400px;
+  max-width: 1400px;
+  width: 40%;
+  text-align: center;
+
+  height: 800px;
+ 
+}
+.bulid .bulid2{
+  margin-top: -400px;
+  width: 70%;
+  margin-left: 250px;
+  transform: scale(1.2);
+  
+}
+.bulid2:hover{
+  transform: rotate(360deg);
+  transition: 1s;
+}
+.bulid .fg{
+  width: 80%;
+  margin-top: -220px;
+  transform: scale(1.25);
+ margin-left: 200px;
+}
+.fg:hover{
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+.img2{
+  width: 10%;
+  margin-top: -200px;
+  animation-name: vehicle;
+  animation-timing-function:20s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+ animation-direction: alternate-reverse;
+
+  
+  
+}
+.img2 .ve{
+  animation-name: vehicle;
+  animation-timing-function:10s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+ animation-direction: alternate-reverse;
+ animation-delay: 5s;
+ margin-top: -500px;
+
+}
+.img2 .ve2{
+  animation-name: vehicle;
+  animation-timing-function:10s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+ animation-direction: alternate-reverse;
+ animation-delay: 7s;
+ margin-top: -500px;
+}
+@keyframes vehicle {
+  0%{transform: translateX(0px);}
+  100%{transform: translateX(1300px);}
+  
+}
+
+.all{
+  margin-top: -100px;
+  width: 60%;
+}
+.new{
+ margin-top: -30px;
+ width: 60%;
+}
+.Main2{
+  width: 750px;
+  
+  height: 100px;
+  margin-top:100px;
+  margin-left: -100px;
+  animation-name:cloud;
+  animation-timing-function: 5s;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ 
+}
+.Main2 img{
+  width: 50%;
+  margin-top: 150px;
+  gap: 10px;
+  
+  
+}
+.Main2 li:hover {
+  transform: scale(1.1);
+}
+
+footer{
+  max-width: 1920px;
+  width: 90%;
+  height: 80px;
+  border: 1px solid #000;
+  background-color: grey;
+  margin-top: 780px;
+  margin-left: 100px;
+ 
+  
+
+  
+}
+p{
+  font-size:15px;
+  color: #fff;
+  margin-left: 100px;
+  margin: 10px;
+  flex-direction: row;
+ 
+
+}
+h3{
+  font-size: 15px;
+
+ 
+}
+.button{
+  display: flex;
+  width: 300px;
+  gap: 10px;
+  justify-content: space-around;
+  margin-left: 500px;
+  margin-top: -50px;
+  
+}
+.btn{
+  border: 2px solid black;
+  background-color: grey;
+  color: #fff;
+  padding: 10px;
+}
+.btn2{
+  border: 2px solid black;
+  background-color: gray;
+  color: #fff;
+  padding: 10px;
+}
+
+
+
+

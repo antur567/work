@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn-container .btn {
+  background-color: blue;
+  color: #fff;
+  width: 300px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  text-decoration: none;
+  /*중간으로 가고 싶으면 ㅎㅎ*/
+  font-size: 1.5rem;
+  /*&:가상 선택자이다*/
+}
+.btn-container .btn:hover {
+  background: transparent;
+  color: aqua;
+}
+.btn-container .btn::before, .btn-container .btn::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: inherit;
+  /* inherit:부모랑 똑같이 해주세요!!*/
+  height: inherit;
+  border: 1px solid firebrick;
+  transition: 0.35s;
+  opacity: 0;
+}
+.btn-container .btn:hover::before {
+  opacity: 1;
+  transform: rotate(45deg);
+}
+.btn-container .btn:hover::after {
+  opacity: 1;
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>청와대본관</title>
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <style>
+        body{width: 100%;overflow-x: hidden;}
+      h2 {
+        padding: 50px 0;
+        font-size: 50px;
+      }
+      main {
+        background-color: rgb(253, 255, 238);
+        background-image: url(./img/fac_t1_lt.png),url(./img/fac_t1_rt.png),url(./img/fac_botBg.png);
+        background-repeat: no-repeat,no-repeat,no-repeat;
+        background-position: left top,right top,center bottom;
+        background-size: 30%,30%,contain ;
+        text-align: center;
+        padding-bottom: 100px;
+      }
+      .main_inner {
+        max-width: 1400px;
+        margin: auto;
+      }
+      .intro {
+        background: #fff;
+        box-shadow: rgb(239, 234, 222) 0px 3px 6px 0px;
+        border-radius: 20px;
+        margin: 50px 0;
+      }
+      .intro p {
+        max-width: 80%;
+        font-size: 20px;
+        color: rgb(51, 51, 51);
+        line-height: 1.5;
+        margin: auto;
+        padding: 50px 0;
+      }
+      .itemGroup ul {
+        display: flex;
+        gap: 20px;
+      }
+      .mainImg,
+      .itemGroup img {
+        max-width: 100%;
+      }
+      a.mapView {
+        display: inline-block;
+        background: #2d353c;
+        color: #fff;
+        padding: 1.5rem 3rem;
+        border-radius: 50px;
+        margin: 50px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <h1><a href="./index.html"><img src="./img/logo.png" alt="" /></a></h1>
+        <nav>
+          <div class="gnb1">
+            <ul>
+              <li><a href="#">개방의 의미</a></li>
+              <li><a href="#">청와대 소개</a></li>
+              <li><a href="#">관람안내</a></li>
+              <li><a href="#">등산로</a></li>
+              <li><a href="#">국민소통</a></li>
+              <li><a href="#">내가 만드는 청와대</a></li>
+            </ul>
+          </div>
+          <div class="gnb2">
+            <ul>
+              <li><a href="#">EN</a></li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-bars" style="font-size: 36px"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main_inner">
+        <h2>청와대 본관</h2>
+        <img class="mainImg" src="./img/fac_topAi_1.png" alt="" />
+        <div class="intro">
+          <p>
+            조선시대 서울의 주산인 북악산의 정남향에 자리 잡고 있는 본관은
+            대통령의 집무와 외빈 접견 등에 사용된 중심 건물이다. 일제 강점기
+            조선 총독이 거주하던 곳을 대통령 집무실 및 관저로 사용한다는 것이
+            대내외적으로 바람직하지 못하다는 주장이 제기돼 1991년 9월 4일
+            신축됐다. 전통 목구조와 궁궐 건축양식을 기본으로 가장 격조 높고
+            아름답다는 팔작지붕을 올리고 총 15만여 개의 한식 청기와를 이었다.
+            2층 본채를 중심으로 좌우에 단층의 별채를 배치했다.
+          </p>
+        </div>
+        <div class="itemGroup">
+          <ul>
+            <li><img src="./img/fac_img_1_1.jpg" alt="" /></li>
+            <li><img src="./img/fac_img_1_2.jpg" alt="" /></li>
+            <li><img src="./img/fac_img_1_3.jpg" alt="" /></li>
+          </ul>
+        </div>
+
+        <a href="./introduce-map00.html" class="mapView">전체지도 보기</a>
+      </div>
+    </main>
+  </body>
+</html>

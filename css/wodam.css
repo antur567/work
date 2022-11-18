@@ -1,0 +1,27 @@
+ul.navi {
+  position: absolute;
+  float: left;
+  overflow: hidden;
+  width: 100px;
+  background: url(/images/main/bg_quick.png);
+  text-align: center;
+  cursor: pointer;
+}
+
+ul.navi li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 100px;
+  margin: 0 10px;
+  border-bottom: 1px solid 0.1d1d1d;
+  font-size: 15px;
+  line-height: 17px;
+  color: #b6b6b6;
+  list-style: none;
+}
+
+ul li.active {
+  color: #f47a20;
+}
