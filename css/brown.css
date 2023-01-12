@@ -1,7 +1,7 @@
 @import url(/reset.css);
 body {
   background-image: url("/1117/images/texture-new.png");
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   height: 1000px;
 }
@@ -121,7 +121,7 @@ body {
     position: absolute;
     right: 0%;
     bottom: 0%;
-    width: 200px;
+    width: 150px;
     height: 270px;
   }
   main p.p1 {
@@ -168,11 +168,15 @@ body {
   }
 }
 @media screen and (max-width: 1020px) {
+  body {
+    max-width: 1200px;
+  }
   header {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     align-items: center;
+    transform: translateX(-30px);
   }
   header nav {
     display: flex;
@@ -284,7 +288,7 @@ body {
     position: absolute;
     left: -0.1%;
     bottom: -15%;
-    width: 500px;
+    width: 400px;
     height: 120px;
     border-color: lightcoral;
   }
@@ -302,7 +306,6 @@ body {
     color: #D49637;
   }
   footer {
-    transform: translateX(-340px);
     top: 15%;
     position: relative;
     width: 500px;
