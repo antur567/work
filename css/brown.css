@@ -37,7 +37,6 @@ body {
     opacity: 0.8;
   }
   main {
-    border: 1px solid #000;
     height: 620px;
     margin: 50px;
     position: relative;
@@ -51,7 +50,6 @@ body {
     width: 100%;
   }
   main .offer {
-    border: 1px solid #000;
     position: absolute;
     right: 0%;
     top: 0%;
@@ -199,9 +197,7 @@ body {
     opacity: 0.8;
   }
   main {
-    border: 1px solid #000;
     height: 800px;
-    border-color: hotpink;
     margin: 50px;
     position: relative;
   }
@@ -209,13 +205,11 @@ body {
     width: 450px;
     height: 380px;
     margin: 20px;
-    border: 1px solid blue;
   }
   main .bread img {
     width: 100%;
   }
   main .offer {
-    border: 1px solid #000;
     position: absolute;
     left: 0%;
     top: 50%;
@@ -308,7 +302,6 @@ body {
     color: #D49637;
   }
   footer {
-    border: 1px solid #000;
     top: 15%;
     position: relative;
     width: 1100px;
@@ -405,9 +398,7 @@ body {
     opacity: 0.8;
   }
   main {
-    border: 1px solid #000;
     height: 620px;
-    border-color: hotpink;
     margin: 50px;
     position: relative;
   }
@@ -420,7 +411,6 @@ body {
     width: 100%;
   }
   main .offer {
-    border: 1px solid #000;
     position: absolute;
     right: 0%;
     top: 0%;
