@@ -460,7 +460,7 @@ body{
   
   footer{
     
-    
+    transform: translateX(-250px);
    top:15%;
  
     
@@ -531,7 +531,7 @@ body{
       }
       .insta{
       
-        transform: translate(-790px,100px);
+        transform: translate(-450px,290px);
        
         
       }
@@ -540,11 +540,12 @@ body{
       .touch{
       
         position: absolute;
-        left: -142%;
+        left: -50%;
+        
       }
       .loca{
        
-        transform: translate(-510px,200px);
+        transform: translate(-180px,100px);
         
        
       }
@@ -555,7 +556,7 @@ body{
    
    
    
-    width: 1100px;
+    width: 700px;
     margin: auto;
     height: 500px;
     background-color: #ffb;
@@ -565,7 +566,7 @@ body{
       width: 13%;
       position: absolute;
       top: -10%;
-      left: 30%;
+      left: 60%;
     }
   }
 }
