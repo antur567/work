@@ -2,11 +2,16 @@ const section = document.querySelector("section");
 const images = document.querySelectorAll("img");
 
 const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("animate");
-        section.style.backgroundColor = entry.target.getAttribute("data-color");
+  (e) => {
+    e.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add("animate");
+        section.style.backgroundColor = e.target.getAttribute("data-color");
+        e.target.classList.remove('scale2')
+      }
+      else{
+        e.target.classList.remove('animate')
+        e.target.classList.add('scale2')
       }
     });
   },
