@@ -197,6 +197,7 @@ body {
     opacity: 0.8;
   }
   main {
+    transform: translateX(-30px);
     height: 800px;
     margin: 50px;
     position: relative;
@@ -204,7 +205,6 @@ body {
   main .bread {
     width: 450px;
     height: 380px;
-    margin: 20px;
   }
   main .bread img {
     width: 100%;
@@ -302,7 +302,7 @@ body {
     color: #D49637;
   }
   footer {
-    transform: translateX(-250px);
+    transform: translateX(-340px);
     top: 15%;
     position: relative;
     width: 500px;
