@@ -101,18 +101,19 @@ body{
     
     .bread{
       
-      width: 750px;
+      width: 730px;
       height: 470px;
-      margin: 10px;
+     
       img{
-        width: 100%;
+        width: 90%;
       }
     }
     .offer{
     
       position: absolute;
+      transform: translateX(-20px);
      
-      right: 0%;
+      
       top:0%;
       width: 330px;
       height: 350px;
@@ -162,7 +163,7 @@ body{
     .line{
      
       width: 750px;
-      margin: 10px;
+      transform: translateX(-30px);
       height: 100px;
       display: flex;
       align-items: center;
@@ -186,7 +187,8 @@ body{
     .Latest{
       border: 1px solid blue;
       position: absolute;
-    right: 0%;
+      transform: translateX(-10px);
+    right: -40%;
     bottom: 0%;
     width: 150px;
     height: 270px;
@@ -210,8 +212,9 @@ body{
     
    
    
-    
+    right: 1%;
     position: relative;
+   
     b.copy{
      
       
@@ -219,13 +222,14 @@ body{
       position: absolute;
       bottom: 10%;
       left: 30%;
-      font-size: 15px;
+      
+      
      
     }
     span{
       position: absolute;
       bottom: 20%;
-  
+
       border-top: 2px solid gray;
       width: 100%;
     }
@@ -261,11 +265,7 @@ body{
             
         }
        
-        p{
-         
-         
-         
-        }
+        
         
       }
      
@@ -276,6 +276,7 @@ body{
    
     
   }
+ 
 }
 //------------------------------1024px//
 
