@@ -305,7 +305,7 @@ body {
     transform: translateX(-250px);
     top: 15%;
     position: relative;
-    width: 700px;
+    width: 600px;
     margin: auto;
     height: 500px;
     background-color: #ffb;
@@ -353,20 +353,20 @@ body {
     font-style: italic;
   }
   footer ul .insta {
-    transform: translate(-450px, 290px);
+    transform: translate(-300px, 290px);
   }
   footer ul .touch {
     position: absolute;
-    left: -50%;
+    left: -20%;
   }
   footer ul .loca {
-    transform: translate(-180px, 100px);
+    transform: translate(-50px, 100px);
   }
   footer img {
     width: 13%;
     position: absolute;
     top: -10%;
-    left: 60%;
+    left: 50%;
   }
 }
 @media screen and (min-width: 1024px) {
