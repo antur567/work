@@ -26,6 +26,7 @@ body{
   }
   
   header{
+    
 
     
     
@@ -33,8 +34,10 @@ body{
     nav{
     
      
-     
+      position: relative;
       ul{
+       
+       
         
           display: flex;
           flex-wrap: wrap;
@@ -55,8 +58,11 @@ body{
          
           
       li{
+       
+      
         transform: translateX(150px);
-        line-height: 0px;
+    
+        
         margin-top: 50px;
        
        
@@ -74,6 +80,16 @@ body{
           
           
         }
+        .whole{
+          position: absolute;
+          bottom: 1%;
+        }
+        .order{
+          position: relative;
+          left: 23%;
+          bottom: 50%;
+        }
+        
        
         .img{
           width:50%;
@@ -318,12 +334,13 @@ body{
             cursor: pointer;
           }
       
-       
+      
        a{
         color: brown;
         font-weight: bold;
         margin: 25px;
         font-size: 15px;
+        
        }
        li:hover a{
         color: brown;
@@ -597,12 +614,16 @@ body{
     margin-top: 50px;
     align-items: center;
  
+    line-height: 150px;
+ 
   
     nav{
       display: flex;
      
      
       ul{
+        
+        
         display: flex;
         gap: 1rem;
         align-items: center;

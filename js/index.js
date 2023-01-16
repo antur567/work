@@ -1,6 +1,8 @@
 const section = document.querySelector("section");
 const images = document.querySelectorAll("img");
 
+
+
 const observer = new IntersectionObserver(
   (e) => {
     e.forEach((e) => {
@@ -8,11 +10,17 @@ const observer = new IntersectionObserver(
         e.target.classList.add("animate");
         section.style.backgroundColor = e.target.getAttribute("data-color");
         e.target.classList.remove('scale2')
+       
+        
       }
+      
+      
       else{
         e.target.classList.remove('animate')
         e.target.classList.add('scale2')
+        
       }
+      
     });
   },
   {
@@ -23,3 +31,10 @@ const observer = new IntersectionObserver(
 images.forEach((el, i) => {
   observer.observe(el);
 });
+
+
+
+
+
+
+

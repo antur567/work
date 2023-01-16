@@ -9,7 +9,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 <style>
+  
   body {
+    margin: 0;
   overscroll-behavior-x: none;
   scroll-behavior: smooth;
   display: flex;
@@ -17,10 +19,12 @@
   align-items: center;
   overflow: hidden;
   justify-content: center;
+  
 }
 
 section {
   width: 100%;
+  text-align: center;
   box-sizing: border-box;
   transition: 0.3s;
   background-color: #f1bace;
@@ -28,6 +32,7 @@ section {
   position: relative;
   height: 100%;
   overflow: auto;
+  
 }
 
 img {
@@ -43,6 +48,7 @@ img {
   box-shadow: 0 40px 100px rgba(0, 0, 0, 0.4);
   opacity: 0;
   cursor: pointer;
+  transform: translateY(-130px);
 }
 
 .animate {
@@ -66,38 +72,86 @@ img:first-child {
 }
 
 
+h1{
+  color: blue;
+  font-family: sans-serif;
+  text-align: center;
+  transform: translateY(60px);
+  display: flex;
+  justify-content: center;
+
+}
+h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  position: absolute;
+  left: 900px;
+  animation-name: slide;
+  animation-duration: 1s;
+  
+  animation-fill-mode: forwards;
+ 
+  
+}
+@keyframes slide {
+  0%{left: -900px; opacity: 0;}
+  100%{right: 900px; opacity: 1;}
+  
+}
+
+
+
+
+
+
+
+
+
 
 </style>
   </head>
 <body>
   
+  
 
   <section>
+    <div class="box">
+      <h2>Welcome to my homepage</h2>
+    </div>
+    <h1>1.전주 한옥마을</h1>
     <a href="/0718/index.html">
       <img class="jeon" src="./0718/screencapture-127-0-0-1-5503-0718-index-html-2023-01-12-21_56_28.png" data-color="#f1bace" />
     </a>
+    <h1>2.오트리빈</h1>
    <a href="./0107/index.html">
     <img class="logo" src="./0107/images/unnamed.jpg" data-color="orange" />
   </a>
- 
+  <h1>3.Brown</h1>
     <a href="./1117(pc버전만 완료)/index.html">
       <img class="stamp" src="./1117(pc버전만 완료)/images/wallpaperflare.com_wallpaper.jpg" data-color="#cfdfde" />
     </a>
+    <h1>4.kakaobank</h1>
     <a href="./kakaobank/index.html">
     <img src="./kakaobank/kakaobank_og_img.png" data-color="#3c94c5" /></a>
       
-  
+    <h1>5.모바일신분증</h1>
     <a href="./0808/mobile.html">
     <img src="./0808/image/관공서 _ 민원서류 발급이 필요한 경우_ 간편인증 _ 다양한 서비스.png" data-color="#b0e6db" />
   </a>
+  <h1>6.경기도청소년교통비지원</h1>
       <a href="./0814/index.html">
     <img src="./0814/images/img (1).png" data-color="#fe6f62" /></a>
+    <h1>7.도로명주소</h1>
         <a href="./0825/doro.html">
     <img src="./0825/images/screencapture-juso-go-kr-openIndexPage-do-2023-01-12-22_38_02.png" data-color="#eed2b7" /></a>
+    <h1>8.경기지역화폐(pc버전만 완료)</h1>
 <a href="./0913/index.html">
     <img src="./0913/images/screencapture-127-0-0-1-5503-0913-index-html-2023-01-12-22_42_24.png" data-color="#f8bbc6" /></a>
+    <h1>9.영빈관</h1>
   <a href="./영빈관/영빈관.html">
     <img src="./영빈관/image/screencapture-127-0-0-1-5503-html-2023-01-12-22_51_00.png" data-color="#08bac3" /></a>
+    <h1>10.청와대</h1>
       <a href="./cheongwadae/index.html">
     <img src="./영빈관/image/screencapture-127-0-0-1-5503-cheongwadae-index-html-2023-01-12-22_52_37.png" data-color="#dcdcdc" /></a>
 

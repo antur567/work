@@ -1,775 +1,147 @@
-@import url(/reset.css);
-
-.silde img{
-  width: 100%;
-}
 section{
- 
-  margin: auto;
-
-}
-
-
-
-
-@media screen and (max-width:600px){
-  #sect1{
-    border: 1px solid #000;
-    display: none;
-  }
-  #sect2{
-    border: 1px solid #000;
-    display: none;
-    
-   .scroll2{
-    display: none;
-   }
-   .box{
-    width: 100%;
-    
-      
-   }
-   .box3{
-    display: none;
-    
-    h6{
-      display: none;
-    }
-    h5{
-      display: none;
-      
-    }
-   }
-   .box4{
-  
-  
-    display: none;
-   
-   }
-   .desc{
-    display: none;
-   }
-  }
-  #sect3{
-    display: none;
-   
-    border: 1px solid #000;
-    
-    .scroll3{
-      display: none;
-    }
-    
-   
-  }
-  #sect4{
   border: 1px solid #000;
-   display: none;
-  }
-  
- 
-  footer{
-    width: 1000%;
-
- height: 20px;
-border: 1px solid #000;
-
-    
-    p{
-      display: none;
-     
-    }
-    address{
-      display: none;
-    }
-    ul.img2{
-      display: none;
-    }
-  }
+  height: 600px;
 }
+#sect1{
+ background: url('/0913/images/이미지\ 텍스트\ 내용삽입.jpg');
 
-@media screen and (max-width:1020px){
-  #sect2{
-    border: 1px solid #000;
-    .scroll2{
-      display: none;
-    }
-  }
-  #sect3{
-    border: 1px solid #000;
-    .scroll3{
-      display: none;
-    }
-  }
-  footer{
-    ul.img2{
-      display: inline;
-    }
-    p.p1{
-      background-color: #000;
-      width: 100%;
-      display: inline-block;
-    }
-  }
- 
-
-  
-  
-}
-@media screen and (min-width:1024px) {
-
-  #sect1{
-    max-height: 1100px;
-   
-   
-   margin: auto;
+ height: 1000px;
+  li.img2{
+    background: url('/0913/images/sprite.png');
+   background-position: 886px;
     
-    position: relative;
-    .scroll1{
-      position: absolute;
-      bottom: 0;
-    }
-    .image{
-      position: absolute;
-      top: 21%;
-      right: 5%;
- 
-      width: 700px;
-  
-    img{
-      width: 100%;
-      
-   
-    }
-   
-    }
-    
-    .ani{
-      transform: translate(780px,250px);
-      position: relative;
-     
-      img.img5{
-        transform: translate(210px,-100px);
-        position: absolute;
-       
-       
-      }
-     
-     
-     
-    }
-   
-   
-    .ani img.img6{
-      position: absolute;
-      left: 35%;
-      animation-name: img2;
-      animation-duration: 1s;
-      animation-delay: 1s;
-      animation-fill-mode: both;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-     
-     
-    }
-    .ani img.img7{
-      position: absolute;
-     top: 400%;
-     left: 32%;
-      
-      animation-name: img2;
-      animation-duration: 2s;
-      animation-delay: 3s;
-      animation-fill-mode: both;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-    }
-   
-    
-    
-    
-    .main{
-      transform: translateY(73px);
-     
-    }
- 
-    background-image: url(/0913/images/이미지\ 텍스트\ 내용삽입.jpg);
-  
-    max-width: 1500px;
-  
- 
-
-
- 
-   
-  background-size: cover;
-    .banner{
-      margin: auto;
-      background-image: url(/0913/images/main-sl-ani.png);
-        
-      height: 850px;
-      width: 90%;
-     
-      background-repeat: no-repeat;
-    
-      background-position-x: right;
-      background-position-y:   bottom;
-    
-      
-      h2{
-        .img1{
-          animation-name: img2;
-          animation-duration: 1s;
-          animation-delay: 1s;
-          animation-fill-mode: both;
-          animation-iteration-count: infinite;
-          animation-direction: alternate;
-         
-        }
-        .img2:hover{
-          transform: translateY(-10px);
-          transition: 0.35s;
-        
-         
-        }
-        img{
-          margin: 20px;
-          
-          @keyframes img2 {
-            0%{
-              transform: translateY(10px);
-            }
-            100%{
-              transform: translateY(-10px);
-
-            }
-            
-          }
-        
-          
-         
-          
-        }
-      }
-      
-    }
-    header::after{
-      position: absolute;
-
-      width: 250px;
-      height: 100px;
-      content: "";
-      background-image: url(/0913/images/sprite.png);
-      transform: translateX(-620px);
-      background-repeat: no-repeat;
-      background-position-x: -504px;
-      background-position-y: -590px;
-    }
-    
-    
-    header{
-      display: flex;
-      align-items: center;
-      margin: 20px;
-      justify-content: space-evenly
-      ;
-        
-      
-   
-      nav{
-        display: flex;
-     
-       
-       
-        
-       
- 
-        ul{
-          display: flex;
-          gap: 3rem;
-          align-items: center;
-        
-        
-        
-        
-          
-  
-        }
-        li{
-          list-style: none;
-          transform: translateX(100px);
-          
-        
-          
- 
-        }
-        a{
-          color: #fff;
-          list-style: none;
-         
-        }
-    }
-  .login{
-    display: flex;
-    gap: 1rem;
-    background-repeat: no-repeat;
-   
-
-   
-   
-    li{
-      list-style: none;
-      transform: translateY(30px);
-     a{
-      color: #fff;
-     }
-    }
-  }
-  .login::after{
-    content: "";
-  
-    width: 90px;
-    height: 50px;
-    position: absolute;
-    transform: translateY(-30px);
-    background-position-x: -1129px;
-    background-image: url(/0913/images/sprite.png);
-    background-position-y: 15px;
-  }
-  .submit::after{
-    content: "";
-;
-    width: 90px;
-    height: 50px;
-    position: absolute;
-    transform: translate(-8px,-70px);
-    background-position-x: -208px;
-    background-image: url(/0913/images/sprite.png);
-    background-position-y: -1055px;
-  }
- 
-    
- 
-  }
-  }
-  }
-  body{
- 
-    
-   margin: auto;
-    
-  }
- 
-  
-  #sect2{
-    
-    
-    max-height: 1100px;
-    max-width: 1500px;
-    position: relative;
-    .scroll2{
-      position: absolute;
-      bottom: 0;
-     }
-   
-    .box5{
-   
-    
-      height: 292px;
-      width: 605px;
-      transform:  translate(800px, -330px);
-   
-  
-      
-    }
-   
-    
-   
-    .box3::after{
-      content: "";
-    
-      width: 50px;
-      height: 50px;
-    left: 1%;
-      position: absolute;
-      background-repeat: no-repeat;
-      background-image: url(/0913/images/sprite.png);
-      background-position-x: -537px;
-      background-position-y: -187px;
-    
-     }
-    
-    
-    height: 100vh;
-    .box3{
-      border: 1px solid #eee;
-      height: 100px;
-      width: 90%;
-      background-color: #eee;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      position: relative;
-    
-    
-      
-   
-   margin: 10px auto;
-  
-   h5{
-    font-size: 20px;
-    margin: 10px;
-
-   
-  
-    
-   }
-   h6{
- 
-    font-size: 15px;
- 
-   }
-   p{
-    font-size: 25px;
-    cursor: pointer;
-   }
-   p:hover{
-    background-color: #fff;
-   }
-  
-   
-    }
-    
-     
-    }
-    ul.store{
-      img:hover{
-        transform: translateY(-0px);
-        transition: 0.7s;
-      }
-      img{
-        transform: translateY(30px);
-      }
-      display: flex;
-      align-items: center;
-      border: 1px solid #000;
-      justify-content: flex-start;
-      height: 90px;
-      width: 90%;
-      margin: auto;
-      p{
-        line-height: 50px;
-      }
-    }
-
-  
- h1,p{
-  margin: 25px;
-  display: inline-block;
-  transform: translateX(30px);
-  
- }
- .box{
-  transform: translateX(50px);
-  
-  justify-content: space-between;
-  
- 
-
-
-  .box2{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    
-   
-  
-    height: 70px;
-    width: 130px;
-    background-color: blue;
-    position: relative;
-    color: #fff;
-  
-  }
-  .box2::after{
-    content: "";
- 
-    width: 50px;
-    height: 50px;
-  left: 1%;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-image: url(/0913/images/sprite.png);
-    background-position-x: -457px;
-    background-position-y: -1051px;
-  
-  }
-  img{
-    width:2%
-  }
-  display: flex;
-  align-items: center;
-
-  width: 90%;
- margin: 20px;
- height: 70px;
-  border: 3px solid blue;
- }
- .box4{
-  
-  width: 600px;
-  height: 350px;
-  margin: 30px;
-
-  .desc{
-    border-bottom: 1px solid #ddd;
-    line-height: 20px;
-    display: flex;
-    cursor: pointer;
-    
-    
-    h5{
-      font-size: 30px;
-      color: red;
-      
-      
-    }
-    margin: 30px;
-  }
-  .desc:hover{
-    background-color: #bbb;
-  }
- 
- 
-  ul{
-    li.on{
-      background-color: #eee;
-      
-    }
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0.5rem;
-   
-   
- 
-    li{
-      line-height: 50px;
-    
-      
-      
-    
-      
-    }
-    a{
-      color: black;
-     
-    }
-   
-    p{
-      display: inline-block;
-      font-size: 30px;
-      cursor: pointer;
-    
-     
-    }
-    p:hover{
-      background: #bbb;
-    }
-  }
- }
-
-  
-  #sect3{
-    position: relative;
-    max-height: 1100px;
-    .scroll3{
-      position: absolute;
-      bottom: 0;
-    }
-    height: 700px;
-   max-width: 1500px;
-    background-color:#ffcc33;
-    background-image: url(/0913/images/downcenter-hands.png);
-    background-repeat: no-repeat;
-    
-   background-position-x: right;
-   background-position-y:   bottom;
-
-    background-size:  contain;
-    h3 img{
-      margin: 20px;
-      
-    }
-   
-    .download{
-       
-      animation-name: img2;
-      animation-duration: 1s;
-      animation-delay: 1s;
-      animation-fill-mode: both;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-      }
-   .btn{
-    position: relative;
-    border: 1px solid #000;
-    display: flex;
+    height: 120px;
     width: 300px;
-    height: 70px;
-    display: inline-block;
-    border-radius: 30px;
-    background: brown;
-   
-  
-    margin: 10px;
-
-   
-   }
-  
-   .lbtn::after{
     position: absolute;
-    height: 70px;
-    
-   
-    content: "";
-
-    border-radius: 30px;
-    background-repeat: no-repeat;
-    background-image: url(/0913/images/sprite.png);
-    width: 200px;
-    background-position-x: -585px;
-    left: 20%;
-    background-position-y: -315px
-   
-    
-    
+    left: 0%;
+    top: 3.5%;
+  }
  
+ 
+  color: white;
+  ul.lnb{
+    display: flex;
+    height: 130px;
+   
+    justify-content: flex-end;
+   color: white;
+    align-items: center;
+   gap:10rem;
+    font-size: 25px;
+    font-weight: bold;
     
+    .submit{
+      margin-right: -100px;
+      background: url('/0913/images/sprite.png');
+      background-position-x: -214px;
+      background-position-y: -1054px;
+    
+    
+      h3{
+        transform: translateY(25px);
+        font-size: 19px;
+      }
+    }
+    .box{
+      margin-right: -100px;
+     
+      background: url('/0913/images/sprite.png');
+     background-position-x: 225px;
+     background-position-y: 5px;
+     
+      h3{
+        transform: translateY(25px);
+        font-size: 19px;
+      }
+    }
+    .search{
+      
+      width: 135px;
+      height: 130px;
+      background: url('/0913/images/sprite.png');
+      background-color: blueviolet;
+      background-position-x: 4710px;
+      background-position-y: 585px;
+
+      
+    }
+    h3{
+      
+      transform: translate(50px,60px);
+      font-size: 18px;
+    }
    
   }
-   .rbtn::after{
-    position: absolute;
-    height: 70px;
-    
-   
-    content: "";
-
-    border-radius: 30px;
-    background-repeat: no-repeat;
-    background-image: url(/0913/images/sprite.png);
-    width: 200px;
-
-    background-position-x: -135px;
-
-    left: 20%;
-    background-position-y: -421px;
-
+ 
+ 
   
-    
+ li{
+  list-style: none;
+  line-height: 80px;
+  a{
+    text-decoration: none;
+    color: white;
+ 
   }
  }
+}
 
+footer{
+  border: 1px solid #000;
+  background-color: black;
+  color: white;
+  height: 250px;
+  position: relative;
+ h3{
+  color: white;
+ 
+  position: absolute;
+  left: 20%;
+ }
+ h3:hover{
+  text-decoration: underline;
+  cursor: pointer;
+ }
+ span::after{
+  position: absolute;
+  transform: translateY(20px);
+  content:"";
+  border: 1px solid white;
+  width: 60%;
+  top: 20%;
+  left: 20%;
+ }
+ address{
+  position: absolute;
+  top: 35%;
+  left: 20%;
+ }
+ p{
+  position: absolute;
+  top: 40%;
+  left: 20%;
 
+ }
+ h4{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+ }
+ h5{
+  position: absolute;
+  top: 60%;
+  left: 20%;
+ }
+ .desc{
+  position: absolute;
+  top: 80%;
+  left: 20%;
+ }
+ ul{
+ position: absolute;
+  list-style: none;
 
-  #sect4{
-    max-height: 1100px;
-    background-image: url(/0913/images/main4-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 820px;
-    max-width: 1500px;
-    ul.app{
-    color: aqua;
-    li.on{
-      transition: 0.35s;
-      background-color: blueviolet;
-    }
-      
-     
-    }
-   
-   
-
-  ul.main{
-    display: flex;
-    text-align: center;
-    gap: 1rem;
-    img{
-      width: 100%;
-      
-    }
-    li.on{
-      background-color: #bbb;
-      transition: 0.35s;
-    }
-  }
-    .inner4{
-      ul{
-        display: flex;
-        gap: 1rem;
-        justify-content: flex-end;
-        align-items: center;
-  
-        transform: translateY(-40px);
-     
-      }
-      display: inline-block;
-    
-      width: 90%;
-      margin: 50px;
-      line-height: 30px;
-      h4{
-        font-size: 30px;
-        
-      }
-      h4,b{
-        margin: 10px;
-      }
-    }
-    b{
-      color: blue;
-    }
-  }
-  footer{
-    max-width: 1300px;
-    border: 1px solid #000;
-    height: 25vh;
-    background-color: grey;
-    max-width: 1200px;
-    margin: auto;
-    line-height: 30px;
-    font-size: 15px;
-    color: #fff;
-    p{
-      line-height: 40px;
-      margin: 4px;
-    }
-    p.p1{
-      cursor: pointer;
-    
-    margin: 5px;
-    border-bottom: 1px solid #fff;
-    border-width: 1px ;
-    
-   
-    }
-    p.p1:hover{
-     text-decoration: underline;
-    
-   
-    }
-    
-    ul{
-      transform: translateY(-50px);
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      li{
-        align-items: center;
-      }
-      
-    }
-  
-    
-  }
-  
+  top: 50%;
+  left: 50%;
+ }
+}
