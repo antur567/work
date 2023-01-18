@@ -381,6 +381,9 @@
       }
 
 @media screen and (max-width:600px) {
+  body{
+    position: relative;
+  }
          .menu {
                       background-color: transparent;
                       border: none;
@@ -525,9 +528,10 @@
  footer{
 
   overflow-x: hidden;
-  position: absolute;
-  width: 93%;
- top: 208%;
+ position: absolute;
+  top: 165%;
+  width: 100%;
+
 
  
   ul.faq{
