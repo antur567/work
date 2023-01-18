@@ -96,8 +96,7 @@
     position: relative;
   }
   .img2 img {
-    width: 500px;
-    height: 200px;
+    width: 100%;
   }
   .aside {
     transform: translateY(-10px);
@@ -280,9 +279,9 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-    position: absolute;
-    right: 25%;
-    bottom: 79%;
+    position: relative;
+    left: 10%;
+    top: 15%;
   }
   ul.desc li {
     font-size: 12px;
@@ -294,8 +293,7 @@
   }
   ul.desc li.gsk {
     position: absolute;
-    top: 800%;
-    transform: translateX(349px);
+    left: 75%;
   }
   a {
     text-decoration: none;
