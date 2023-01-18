@@ -194,6 +194,9 @@ footer img {
   body {
     overflow-x: hidden;
   }
+  header {
+    max-width: 1200px;
+  }
   header .whole {
     position: absolute;
   }
@@ -231,6 +234,7 @@ footer img {
     opacity: 0.8;
   }
   main {
+    max-width: 1200px;
     left: 0%;
     height: 620px;
     margin: 50px;
