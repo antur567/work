@@ -125,3 +125,45 @@ footer ul {
   top: 50%;
   left: 50%;
 }
+
+@media screen and (max-width: 600px) {
+  #sect1 ul.lnb {
+    gap: 1rem;
+    font-size: 10px;
+    margin: auto;
+    position: absolute;
+  }
+  #sect1 ul.lnb .box {
+    background: none;
+    position: absolute;
+    top: 17%;
+    right: 20%;
+    cursor: pointer;
+  }
+  #sect1 ul.lnb .box h3 {
+    font-size: 10px;
+  }
+  #sect1 ul.lnb .submit {
+    background: none;
+    background: none;
+    position: absolute;
+    right: 1%;
+    top: 17%;
+    cursor: pointer;
+  }
+  #sect1 ul.lnb .submit h3 {
+    font-size: 10px;
+  }
+  #sect1 ul.lnb .search {
+    display: none;
+  }
+  #sect1 li.img2 {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  section {
+    width: 95%;
+  }
+}
