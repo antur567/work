@@ -310,4 +310,13 @@ a {
   .aside h3 {
     transform: translateY(-20px);
   }
+  footer {
+    transform: translateY(1000px);
+  }
+  footer ul.li {
+    display: none;
+  }
+  footer ul.han {
+    display: none;
+  }
 }
