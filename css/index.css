@@ -120,8 +120,7 @@
     list-style: none;
   }
   body .aside .asideimg li img {
-    width: 450px;
-    height: 400px;
+    width: 100%;
   }
   body .aside .asideimg li .desc1 {
     position: absolute;
