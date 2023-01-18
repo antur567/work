@@ -94,7 +94,6 @@ p {
 
 .img2 img {
   width: 100%;
-  border: 1px solid #000;
 }
 
 .aside {
@@ -356,16 +355,15 @@ a {
     width: 100%;
   }
   .aside {
+    position: relative;
     background: none;
-    border: 1px solid #000;
   }
   .aside ul.asideimg {
     transform: translateY(-50px);
   }
   .aside ul.asideimg li img {
     width: 100%;
-    height: 350px;
-    border: 1px solid #000;
+    height: 370px;
   }
   .aside ul.asideimg .desc1 {
     position: absolute;
@@ -373,19 +371,52 @@ a {
     width: 70%;
     line-height: 50px;
   }
+  .aside ul.asideimg .desc2 {
+    position: absolute;
+    top: 60%;
+    width: 74%;
+    height: 90px;
+    line-height: 50px;
+    font-size: 24px;
+  }
+  .aside ul.asideimg .desc3 {
+    position: absolute;
+    top: 93%;
+    width: 75%;
+    height: 60px;
+  }
   .aside ul.asideimg2 {
     transform: translateY(-50px);
   }
   .aside ul.asideimg2 li img {
     width: 100%;
-    height: 350px;
-    border: 1px solid #000;
+    height: 370px;
+  }
+  .aside ul.asideimg2 .desc4 {
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+  }
+  .aside ul.asideimg2 .desc5 {
+    position: absolute;
+    top: 60%;
+    width: 75%;
+    list-style: 50px;
+    height: 60px;
+  }
+  .aside ul.asideimg2 .desc6 {
+    position: absolute;
+    top: 94%;
+    width: 75%;
+    line-height: 25px;
   }
   .aside h3 {
     transform: translateY(-20px);
   }
   footer {
-    overflow-x: hidden;
+    display: none;
     transform: translateY(1000px);
   }
   footer ul.faq {
