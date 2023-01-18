@@ -311,6 +311,7 @@ a {
     transform: translateY(-20px);
   }
   footer {
+    overflow-x: hidden;
     transform: translateY(1000px);
   }
   footer ul.faq {

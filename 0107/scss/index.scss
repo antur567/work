@@ -400,6 +400,7 @@
 
  }
  footer{
+  overflow-x: hidden;
   ul.faq{
     position: absolute;
     gap: 2rem;
@@ -422,6 +423,7 @@
     display: none;
   }
   ul.desc{
+    
    position: absolute;
    font-size: 11px;
    bottom: 64%;
