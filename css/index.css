@@ -1,9 +1,12 @@
 @media screen and (max-width: 600px) {
+  div {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   body {
     margin: 0;
     padding: 0;
     width: auto;
-    overflow-x: hidden;
   }
   body .topgnb {
     display: none;
