@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   body {
-    width: 100%;
+    width: auto;
     overflow-x: hidden;
   }
   body .topgnb {
@@ -45,7 +45,6 @@
   body .bottomgnb ul.btn .body {
     align-items: center;
     display: flex;
-    height: 100vh;
     margin: 0;
   }
   body .bottomgnb ul.btn .menu {
