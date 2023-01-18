@@ -416,7 +416,9 @@ a {
     transform: translateY(-20px);
   }
   footer {
-    display: none;
+    position: absolute;
+    width: 93%;
+    top: 208%;
     transform: translateY(1000px);
   }
   footer ul.faq {
