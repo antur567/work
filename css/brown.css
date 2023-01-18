@@ -24,8 +24,6 @@ header nav ul {
 header nav ul img {
   width: 20%;
   cursor: pointer;
-  position: absolute;
-  left: 50%;
 }
 header nav ul a {
   color: brown;
@@ -37,17 +35,8 @@ header nav ul li:hover a {
   color: brown;
   opacity: 0.8;
 }
-header .whole {
-  left: 1%;
-  position: absolute;
-}
-header .order {
-  position: absolute;
-  left: 23%;
-}
 
 main {
-  left: 0%;
   height: 620px;
   margin: 50px;
   position: relative;
@@ -201,9 +190,16 @@ footer img {
   left: 10%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 601px) {
   body {
     overflow-x: hidden;
+  }
+  header .whole {
+    position: absolute;
+  }
+  header .order {
+    position: absolute;
+    left: 23%;
   }
   header nav {
     position: relative;
@@ -225,7 +221,9 @@ footer img {
   }
   header nav ul .img {
     width: 50%;
-    transform: translate(-100px, -80px);
+    position: absolute;
+    left: 30%;
+    bottom: 50%;
     cursor: pointer;
   }
   header nav ul li:hover a {
@@ -233,6 +231,7 @@ footer img {
     opacity: 0.8;
   }
   main {
+    left: 1%;
     height: 620px;
     margin: 50px;
     position: relative;

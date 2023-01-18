@@ -38,8 +38,7 @@ header{
           img{
             width: 20%;
             cursor: pointer;
-            position: absolute;
-            left: 50%;
+          
           }
       
        
@@ -59,17 +58,10 @@ header{
         
       }
     }
-    .whole{
-      left: 1%;
-      position: absolute;
-    }
-    .order{
-      position: absolute;
-      left: 23%;
-    }
+    
   }
   main{
-    left: 0%;
+    
     height: 620px;
   
     margin: 50px;
@@ -270,12 +262,19 @@ header{
 
 
 //------------------------------1024px//
-@media screen and (max-width:700px) {
+@media screen and (max-width:601px) {
   body{
     overflow-x: hidden;
   }
   
   header{
+    .whole{
+      position: absolute;
+    }
+    .order{
+      position: absolute;
+      left: 23%;
+    }
     
 
     
@@ -336,7 +335,9 @@ header{
         .img{
           width:50%;
         
-       transform: translate(-100px,-80px);
+          position: absolute;
+          left: 30%;
+        bottom: 50%;
       
           cursor: pointer;
           
@@ -351,7 +352,7 @@ header{
     }
   }
   main{
-    
+    left: 1%;
     height: 620px;
  
     margin: 50px;
