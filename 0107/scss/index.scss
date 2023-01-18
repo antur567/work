@@ -393,6 +393,7 @@
     }
   }
  .aside{
+  
   h3{
     transform: translateY(-20px);
   }
@@ -406,6 +407,21 @@
   ul.han{
     display: none;
   }
+  ul.desc{
+    display: none;
+    
+  }
+  ul.desc2{
+    display: block;
+    li{
+      list-style: none;
+      color: white;
+      position: absolute;
+      bottom: 25%;
+      left: 40%;
+    }
+  }
+ 
  }
  
  

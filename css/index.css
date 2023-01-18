@@ -319,4 +319,17 @@ a {
   footer ul.han {
     display: none;
   }
+  footer ul.desc {
+    display: none;
+  }
+  footer ul.desc2 {
+    display: block;
+  }
+  footer ul.desc2 li {
+    list-style: none;
+    color: white;
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+  }
 }
