@@ -2,7 +2,6 @@
 body {
   background-image: url("/1117/images/texture-new.png");
   margin: auto;
-  max-width: 1200px;
   height: 1000px;
 }
 
@@ -190,13 +189,9 @@ footer img {
   left: 10%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
   body {
     overflow-x: hidden;
-    max-width: 1200px;
-  }
-  header {
-    max-width: 1200px;
   }
   header .whole {
     position: absolute;
@@ -235,7 +230,6 @@ footer img {
     opacity: 0.8;
   }
   main {
-    max-width: 1200px;
     left: 0%;
     height: 620px;
     margin: 50px;
@@ -364,10 +358,7 @@ footer img {
     margin: 1px;
   }
 }
-@media screen and (max-width: 1020px) {
-  body {
-    max-width: 1200px;
-  }
+@media screen and (min-width: 1024px) {
   header {
     display: flex;
     justify-content: space-between;
