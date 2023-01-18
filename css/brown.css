@@ -231,7 +231,7 @@ footer img {
     opacity: 0.8;
   }
   main {
-    left: 1%;
+    left: 0%;
     height: 620px;
     margin: 50px;
     position: relative;
@@ -333,10 +333,11 @@ footer img {
     position: relative;
     position: relative;
   }
-  footer b.copy {
+  footer b {
     position: absolute;
-    bottom: 10%;
-    left: 30%;
+    bottom: 5%;
+    left: 10%;
+    font-size: 11px;
   }
   footer span {
     position: absolute;
