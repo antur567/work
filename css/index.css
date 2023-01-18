@@ -1,586 +1,298 @@
-@media screen and (max-width: 600px) {
-  body {
-    margin: 0;
-    padding: 0;
-    width: auto;
-  }
-  body .topgnb {
-    display: none;
-  }
-  body .bottomgnb {
-    border: 1px solid #000;
-    background-color: rgb(17, 17, 184);
-  }
-  body .bottomgnb ul.btn li.btn1 {
-    display: none;
-  }
-  body .bottomgnb ul.btn li.btn2 {
-    display: none;
-  }
-  body .bottomgnb ul.btn li.btn3 {
-    display: none;
-  }
-  body .bottomgnb ul.btn {
-    position: relative;
-    display: flex;
-    align-items: center;
-    list-style: none;
-    justify-content: space-around;
-  }
-  body .bottomgnb ul.btn img {
-    width: 55%;
-    cursor: pointer;
-    transform: translate(30px, -10px);
-  }
-  body .bottomgnb ul.btn .img3 {
-    transform: translateY(-5px);
-  }
-  body .bottomgnb ul.btn a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    display: inline-block;
-  }
-  body .bottomgnb ul.btn .body {
-    align-items: center;
-    display: flex;
-    margin: 0;
-  }
-  body .bottomgnb ul.btn .menu {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    transform: translateX(-50px);
-    padding: 0;
-  }
-  body .bottomgnb ul.btn .line {
-    fill: none;
-    stroke: white;
-    stroke-width: 6;
-    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  body .bottomgnb ul.btn .line1 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
-  }
-  body .bottomgnb ul.btn .line2 {
-    stroke-dasharray: 60 60;
-    stroke-width: 6;
-  }
-  body .bottomgnb ul.btn .line3 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
-  }
-  body .bottomgnb ul.btn .opened .line1 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
-  }
-  body .bottomgnb ul.btn .opened .line2 {
-    stroke-dasharray: 1 60;
-    stroke-dashoffset: -30;
-    stroke-width: 6;
-  }
-  body .bottomgnb ul.btn .opened .line3 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
-  }
-  body p {
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    display: inline;
-    position: relative;
-  }
-  body .img2 img {
-    width: 100%;
-  }
-  body .aside {
-    transform: translateY(-10px);
-    background-color: whitesmoke;
-    opacity: 0.8;
-  }
-  body .aside h3 {
-    text-align: center;
-    font-size: 30px;
-    color: blue;
-  }
-  body .aside .asideimg {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    transform: translateX(-10px);
-    gap: 2rem;
-  }
-  body .aside .asideimg li {
-    list-style: none;
-  }
-  body .aside .asideimg li img {
-    width: 100%;
-  }
-  body .aside .asideimg li .desc1 {
-    position: absolute;
-    color: blue;
-    font-size: 25px;
-    background-color: white;
-    width: 80%;
-    top: 25%;
-    line-height: 40px;
-    padding: 10px;
-  }
-  body .aside .asideimg li .desc2 {
-    position: absolute;
-    color: blue;
-    font-size: 25px;
-    background-color: white;
-    width: 80%;
-    top: 60%;
-    line-height: 28px;
-    padding: 10px;
-  }
-  body .aside .asideimg li .desc3 {
-    position: absolute;
-    color: blue;
-    font-size: 23px;
-    background-color: white;
-    width: 400px;
-    top: 95%;
-    line-height: 50px;
-    padding: 5px;
-  }
-  body .asideimg2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    transform: translate(-10px, 30px);
-    gap: 2rem;
-  }
-  body .asideimg2 li {
-    list-style: none;
-  }
-  body .asideimg2 li img {
-    width: 100%;
-  }
-  body .asideimg2 .desc4 {
-    position: absolute;
-    color: blue;
-    font-size: 24px;
-    background-color: white;
-    width: 400px;
-    top: 26%;
-    line-height: 50px;
-    padding: 10px;
-  }
-  body .asideimg2 .desc5 {
-    position: absolute;
-    color: blue;
-    font-size: 23px;
-    background-color: white;
-    width: 390px;
-    top: 60%;
-    line-height: 25px;
-    padding: 10px;
-  }
-  body .asideimg2 .desc6 {
-    position: absolute;
-    color: blue;
-    font-size: 24px;
-    background-color: white;
-    width: 390px;
-    top: 94.8%;
-    line-height: 35px;
-    padding: 7px;
-  }
-  body footer {
-    overflow-x: none;
-    overflow-x: none;
-    transform: translateY(80px);
-    border: 1px solid #000;
-    height: 500px;
-    background-color: rgba(2, 2, 115, 0.926);
-    position: relative;
-  }
-  body footer ul.desc2 {
-    position: relative;
-    top: 37%;
-    left: 31%;
-    cursor: pointer;
-  }
-  body footer ul.desc2 li {
-    position: absolute;
-    list-style: none;
-    color: white;
-  }
-  body footer a {
-    text-decoration: none;
-    color: white;
-  }
-  body ul.li {
-    overflow-x: none;
-    justify-content: flex-start;
-    position: absolute;
-    bottom: 69%;
-    left: 5%;
-    list-style: none;
-    font-size: 12px;
-    pointer-events: none;
-  }
-  body p {
-    cursor: pointer;
-  }
-  body h5 {
-    color: white;
-  }
-  body ul.faq {
-    overflow-x: none;
-    display: flex;
-    position: absolute;
-    bottom: 85%;
-    left: 30%;
-    list-style: none;
-    gap: 1.5rem;
-  }
-  body ul.faq a {
-    text-decoration: none;
-    color: white;
-    font-style: italic;
-    font-size: 15px;
-  }
-  body ul.han {
-    position: absolute;
-    list-style: none;
-    color: white;
-    bottom: 10%;
-    right: 30%;
-    top: 50%;
-    transform: translateX(50px);
-  }
-  body ul.han li {
-    font-size: 13px;
-    text-align: center;
-  }
-  body ul.img {
-    overflow-x: none;
-    list-style: none;
-    position: absolute;
-    bottom: 59%;
-    left: 40%;
-  }
-  body ul.desc {
-    overflow-x: none;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    position: relative;
-    left: 10%;
-    top: 15%;
-  }
-  body ul.desc li {
-    font-size: 12px;
-    list-style: none;
-    font-style: italic;
-  }
-  body ul.desc img {
-    overflow-x: none;
-    width: 60%;
-  }
-  body ul.desc li.gsk {
-    position: absolute;
-    left: 70%;
-    overflow-x: none;
-  }
-  body a {
-    text-decoration: none;
-    color: white;
-  }
+.topgnb {
+  border: 1px solid #000;
+  height: 50px;
+  background-color: #323131;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: right;
 }
-@media screen and (min-width: 601px) {
-  .topgnb {
-    border: 1px solid #000;
-    height: 50px;
-    background-color: #323131;
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: right;
-  }
-  .topgnb span {
-    color: beige;
-  }
-  .topgnb img {
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  .topgnb h3 {
-    color: white;
-  }
-  .topgnb p {
-    text-decoration: underline;
-    cursor: pointer;
-    color: white;
-  }
-  .topgnb span {
-    color: beige;
-  }
-  .menu {
-    display: none;
-  }
-  .bottomgnb {
-    border: 1px solid #000;
-    height: 120px;
-    background-color: rgb(17, 17, 184);
-  }
-  .bottomgnb ul.btn {
-    transform: translateY(10px);
-    display: flex;
-    align-items: center;
-    list-style: none;
-    justify-content: space-evenly;
-    position: relative;
-    cursor: pointer;
-  }
-  .bottomgnb ul.btn img {
-    width: 60%;
-  }
-  .bottomgnb ul.btn li.btn1:hover::after {
-    position: absolute;
-    content: "";
-    background: white;
-    border: 1px solid #000;
-    width: 100px;
-    height: 5px;
-    bottom: 0%;
-    display: inline-block;
-    transform: translateX(-103px);
-    transition: all 0.5s ease;
-  }
-  .bottomgnb ul.btn li.btn2:hover::after {
-    position: absolute;
-    content: "";
-    background: white;
-    border: 1px solid #000;
-    width: 50px;
-    height: 5px;
-    bottom: 0%;
-    display: inline-block;
-    transform: translateX(-45px);
-    transition: all 0.5s ease;
-  }
-  .bottomgnb ul.btn li.btn3:hover::after {
-    position: absolute;
-    content: "";
-    background: white;
-    border: 1px solid #000;
-    width: 50px;
-    height: 5px;
-    bottom: 0%;
-    display: inline-block;
-    transform: translateX(-45px);
-    transition: all 0.5s ease;
-  }
-  p {
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    display: inline;
-    position: relative;
-  }
-  .img2 img {
-    width: 100%;
-    border: 1px solid #000;
-  }
-  .aside {
-    overflow-x: none;
-    border: 1px solid #000;
-    height: 760px;
-    background-color: whitesmoke;
-    opacity: 0.8;
-  }
-  .aside h3 {
-    text-align: center;
-    font-size: 30px;
-    color: blue;
-  }
-  .aside .asideimg {
-    overflow-x: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    gap: 2rem;
-  }
-  .aside .asideimg li {
-    list-style: none;
-  }
-  .aside .asideimg li img {
-    width: 100%;
-    height: 235px;
-  }
-  .aside .asideimg li .desc1 {
-    overflow-x: none;
-    position: absolute;
-    color: blue;
-    font-size: 25px;
-    background-color: white;
-    width: 230px;
-    top: 60%;
-    height: 80px;
-    line-height: 35px;
-    padding: 5px;
-  }
-  .aside .asideimg li .desc2 {
-    overflow-x: none;
-    position: absolute;
-    color: blue;
-    font-size: 25px;
-    background-color: white;
-    width: 230px;
-    top: 60%;
-    height: 80px;
-    line-height: 27px;
-    padding: 5px;
-  }
-  .aside .asideimg li .desc3 {
-    overflow-x: none;
-    position: absolute;
-    color: blue;
-    font-size: 23px;
-    background-color: white;
-    width: 230px;
-    top: 60%;
-    height: 80px;
-    line-height: 50px;
-    padding: 5px;
-  }
-  .asideimg2 {
-    overflow-x: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    transform: translateY(30px);
-    gap: 2rem;
-  }
-  .asideimg2 li {
-    list-style: none;
-  }
-  .asideimg2 li img {
-    width: 100%;
-    height: 235px;
-  }
-  .asideimg2 .desc4 {
-    overflow-x: none;
-    position: absolute;
-    color: blue;
-    font-size: 24px;
-    background-color: white;
-    width: 230px;
-    top: 74%;
-    height: 80px;
-    line-height: 35px;
-    padding: 7px;
-  }
-  .asideimg2 .desc5 {
-    overflow-x: none;
-    position: absolute;
-    color: blue;
-    font-size: 23px;
-    background-color: white;
-    width: 230px;
-    top: 72%;
-    height: 80px;
-    line-height: 35px;
-    padding: 7px;
-  }
-  .asideimg2 .desc6 {
-    overflow-x: none;
-    position: absolute;
-    color: blue;
-    font-size: 24px;
-    background-color: white;
-    width: 230px;
-    top: 75%;
-    height: 80px;
-    line-height: 35px;
-    padding: 7px;
-  }
-  footer {
-    border: 1px solid #000;
-    height: 280px;
-    background-color: rgba(2, 2, 115, 0.926);
-    margin: 3px;
-    position: relative;
-  }
-  footer ul.desc2 {
-    display: none;
-  }
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-  ul.li {
-    justify-content: flex-start;
-    position: absolute;
-    bottom: 70%;
-    left: 10%;
-    list-style: none;
-  }
-  p {
-    cursor: pointer;
-  }
-  h5 {
-    color: white;
-  }
-  ul.faq {
-    display: flex;
-    position: absolute;
-    bottom: 80%;
-    left: 10%;
-    list-style: none;
-    gap: 1rem;
-  }
-  ul.faq a {
-    text-decoration: none;
-    color: white;
-    font-style: italic;
-    font-size: 15px;
-  }
-  ul.han {
-    position: absolute;
-    list-style: none;
-    color: white;
-    bottom: 10%;
-    right: 20%;
-    top: 5%;
-  }
-  ul.img {
-    list-style: none;
-    position: absolute;
-    bottom: 5%;
-    left: 10%;
-  }
-  ul.desc {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    position: absolute;
-    right: 20%;
-    bottom: 1%;
-  }
-  ul.desc li {
-    list-style: none;
-    font-style: italic;
-  }
-  ul.desc img {
-    width: 50%;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
+.topgnb span {
+  color: beige;
+}
+.topgnb img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.topgnb h3 {
+  color: white;
+}
+.topgnb p {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+.topgnb span {
+  color: beige;
+}
+
+.menu {
+  display: none;
+}
+
+.bottomgnb {
+  border: 1px solid #000;
+  height: 120px;
+  background-color: rgb(17, 17, 184);
+}
+.bottomgnb ul.btn {
+  transform: translateY(10px);
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  position: relative;
+  cursor: pointer;
+}
+.bottomgnb ul.btn img {
+  width: 60%;
+}
+.bottomgnb ul.btn li.btn1:hover::after {
+  position: absolute;
+  content: "";
+  background: white;
+  border: 1px solid #000;
+  width: 100px;
+  height: 5px;
+  bottom: 0%;
+  display: inline-block;
+  transform: translateX(-103px);
+  transition: all 0.5s ease;
+}
+.bottomgnb ul.btn li.btn2:hover::after {
+  position: absolute;
+  content: "";
+  background: white;
+  border: 1px solid #000;
+  width: 50px;
+  height: 5px;
+  bottom: 0%;
+  display: inline-block;
+  transform: translateX(-45px);
+  transition: all 0.5s ease;
+}
+.bottomgnb ul.btn li.btn3:hover::after {
+  position: absolute;
+  content: "";
+  background: white;
+  border: 1px solid #000;
+  width: 50px;
+  height: 5px;
+  bottom: 0%;
+  display: inline-block;
+  transform: translateX(-45px);
+  transition: all 0.5s ease;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+}
+
+.img2 img {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.aside {
+  overflow-x: none;
+  border: 1px solid #000;
+  height: 760px;
+  background-color: whitesmoke;
+  opacity: 0.8;
+}
+.aside h3 {
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+.aside .asideimg {
+  overflow-x: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  gap: 2rem;
+}
+.aside .asideimg li {
+  list-style: none;
+}
+.aside .asideimg li img {
+  width: 100%;
+  height: 235px;
+}
+.aside .asideimg li .desc1 {
+  overflow-x: none;
+  position: absolute;
+  color: blue;
+  font-size: 25px;
+  background-color: white;
+  width: 230px;
+  top: 60%;
+  height: 80px;
+  line-height: 35px;
+  padding: 5px;
+}
+.aside .asideimg li .desc2 {
+  overflow-x: none;
+  position: absolute;
+  color: blue;
+  font-size: 25px;
+  background-color: white;
+  width: 230px;
+  top: 60%;
+  height: 80px;
+  line-height: 27px;
+  padding: 5px;
+}
+.aside .asideimg li .desc3 {
+  overflow-x: none;
+  position: absolute;
+  color: blue;
+  font-size: 23px;
+  background-color: white;
+  width: 230px;
+  top: 60%;
+  height: 80px;
+  line-height: 50px;
+  padding: 5px;
+}
+
+.asideimg2 {
+  overflow-x: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  transform: translateY(30px);
+  gap: 2rem;
+}
+.asideimg2 li {
+  list-style: none;
+}
+.asideimg2 li img {
+  width: 100%;
+  height: 235px;
+}
+.asideimg2 .desc4 {
+  overflow-x: none;
+  position: absolute;
+  color: blue;
+  font-size: 24px;
+  background-color: white;
+  width: 230px;
+  top: 74%;
+  height: 80px;
+  line-height: 35px;
+  padding: 7px;
+}
+.asideimg2 .desc5 {
+  overflow-x: none;
+  position: absolute;
+  color: blue;
+  font-size: 23px;
+  background-color: white;
+  width: 230px;
+  top: 72%;
+  height: 80px;
+  line-height: 35px;
+  padding: 7px;
+}
+.asideimg2 .desc6 {
+  overflow-x: none;
+  position: absolute;
+  color: blue;
+  font-size: 24px;
+  background-color: white;
+  width: 230px;
+  top: 75%;
+  height: 80px;
+  line-height: 35px;
+  padding: 7px;
+}
+
+footer {
+  border: 1px solid #000;
+  height: 280px;
+  background-color: rgba(2, 2, 115, 0.926);
+  margin: 3px;
+  position: relative;
+}
+footer ul.desc2 {
+  display: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+ul.li {
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 70%;
+  left: 10%;
+  list-style: none;
+}
+
+p {
+  cursor: pointer;
+}
+
+h5 {
+  color: white;
+}
+
+ul.faq {
+  display: flex;
+  position: absolute;
+  bottom: 80%;
+  left: 10%;
+  list-style: none;
+  gap: 1rem;
+}
+ul.faq a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+}
+
+ul.han {
+  position: absolute;
+  list-style: none;
+  color: white;
+  bottom: 10%;
+  right: 20%;
+  top: 5%;
+}
+
+ul.img {
+  list-style: none;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+
+ul.desc {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: absolute;
+  right: 20%;
+  bottom: 1%;
+}
+ul.desc li {
+  list-style: none;
+  font-style: italic;
+}
+ul.desc img {
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
