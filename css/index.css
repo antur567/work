@@ -298,6 +298,8 @@ a {
 @media screen and (max-width: 600px) {
   body {
     position: relative;
+    margin: 0;
+    padding: 0;
   }
   .menu {
     background-color: transparent;
@@ -366,7 +368,7 @@ a {
     transform: translateY(-50px);
   }
   .aside ul.asideimg li img {
-    width: 100%;
+    width: 105%;
     height: 370px;
   }
   .aside ul.asideimg .desc1 {
@@ -393,14 +395,14 @@ a {
     transform: translateY(-50px);
   }
   .aside ul.asideimg2 li img {
-    width: 100%;
+    width: 105%;
     height: 370px;
   }
   .aside ul.asideimg2 .desc4 {
     position: absolute;
     top: 25%;
     width: 80%;
-    height: 50px;
+    height: 57px;
     line-height: 50px;
   }
   .aside ul.asideimg2 .desc5 {
