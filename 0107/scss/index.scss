@@ -119,7 +119,7 @@
  
   .aside{
     overflow-x: none;
-    border: 1px solid #000;
+ 
     height: 760px;
     background-color: whitesmoke;
     opacity: 0.8;
@@ -142,7 +142,8 @@
         
         img{
          width: 100%;
-          height: 235px;
+         height: 230px;
+          
           
           
          
@@ -387,6 +388,7 @@
                       display: flex;
                       transform: translateX(-50px);
                       padding: 0;
+                      width: 20%;
                       
                     }
        .line {
@@ -424,6 +426,14 @@
                       stroke-dashoffset: -134;
                       stroke-width: 6;
                     }
+                    ul.btn {
+                      li img{
+                        width: 90%;
+                        transform: translateY(-10px);
+                      
+                        
+                      }
+                    }
   .topgnb{
     display: none;
   }
@@ -433,23 +443,54 @@
  .bottomgnb{
   height: 130px;
  }
-  img{
-    transform: translateY(-10px);
-  }
+
   .img2{
     img{
-      width: 100%;
+      width: 100%
     }
   }
  .aside{
+ background:none;
+border: 1px solid #000;
+ ul.asideimg{
+  
+  transform: translateY(-50px);
+  li{
+    img{
+      width: 100%;
+      height: 350px;
+      border: 1px solid #000;
+    }
+  }
+  .desc1{
+    position: absolute;
+    top: 23%;
+    width: 70%;
+    line-height: 50px;
+  }
+ }
+ ul.asideimg2{
+ 
+  
+  transform: translateY(-50px);
+  li{
+    img{
+      width: 100%;
+      height: 350px;
+      border: 1px solid #000;
+    }
+  }
+ }
   
   h3{
     transform: translateY(-20px);
   }
+  
 
  }
  footer{
   overflow-x: hidden;
+ 
   ul.faq{
     position: absolute;
     gap: 3rem;
