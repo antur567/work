@@ -5,25 +5,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=chrome">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/css/Document.css">
+  
 <style>
   
+ 
   body {
     margin: 0;
   overscroll-behavior-x: none;
   scroll-behavior: smooth;
+  
   display: flex;
   height: 100vh;
   align-items: center;
   overflow: hidden;
   justify-content: center;
   
+  
+  
 }
 
 section {
   width: 100%;
+ 
   text-align: center;
   box-sizing: border-box;
   transition: 0.3s;
@@ -99,6 +106,12 @@ h2{
   100%{right: 900px; opacity: 1;}
   
 }
+@media screen and (max-width:600px) {
+  section{
+    overflow-x: hidden;
+  }
+}
+
 
 
 

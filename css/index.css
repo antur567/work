@@ -1,7 +1,4 @@
 @media screen and (max-width: 600px) {
-  div {
-    overflow-x: hidden;
-  }
   body {
     margin: 0;
     padding: 0;
