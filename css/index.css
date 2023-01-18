@@ -313,14 +313,37 @@ a {
   footer {
     transform: translateY(1000px);
   }
+  footer ul.faq {
+    position: absolute;
+    gap: 2rem;
+    left: 30%;
+    top: 10%;
+  }
+  footer ul.img {
+    position: absolute;
+    left: 40%;
+    bottom: 30%;
+  }
   footer ul.li {
-    display: none;
+    font-size: 12px;
+    position: absolute;
+    bottom: 45%;
+    left: 2%;
   }
   footer ul.han {
     display: none;
   }
   footer ul.desc {
-    display: none;
+    position: absolute;
+    font-size: 11px;
+    bottom: 64%;
+    right: 30%;
+  }
+  footer ul.desc li.gsk {
+    position: absolute;
+    top: 900%;
+    left: 120%;
+    width: 32%;
   }
   footer ul.desc2 {
     display: block;
@@ -331,5 +354,7 @@ a {
     position: absolute;
     bottom: 25%;
     left: 40%;
+    font-size: 12px;
+    font-style: italic;
   }
 }
