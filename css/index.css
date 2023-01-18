@@ -296,3 +296,18 @@ a {
   text-decoration: none;
   color: white;
 }
+
+@media screen and (max-width: 600px) {
+  .topgnb {
+    display: none;
+  }
+  li.btn1, li.btn2, li.btn3 {
+    display: none;
+  }
+  .img2 img {
+    width: 100%;
+  }
+  .aside h3 {
+    transform: translateY(-20px);
+  }
+}
