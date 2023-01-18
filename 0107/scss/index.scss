@@ -441,12 +441,14 @@
                     }
   .topgnb{
     display: none;
+   
   }
   li.btn1,li.btn2,li.btn3{
     display: none;
   }
  .bottomgnb{
   height: 130px;
+  
  }
 
   .img2{
@@ -464,7 +466,7 @@
   transform: translateY(-50px);
   li{
     img{
-      width: 105%;
+      width: 100%;
       height: 370px;
     }
   }
@@ -491,10 +493,11 @@
  }
  ul.asideimg2{
 
+
   transform: translateY(-50px);
   li{
     img{
-      width: 105%;
+      width: 100%;
       height: 370px;
       
     }
@@ -533,11 +536,12 @@
   overflow-x: hidden;
  position: absolute;
   top: 165%;
-  width: 100%;
+  width: 99%;
 
 
  
   ul.faq{
+   
     position: absolute;
     gap: 3rem;
     left: 25%;
