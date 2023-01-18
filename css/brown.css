@@ -190,9 +190,10 @@ footer img {
   left: 10%;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
+    max-width: 1200px;
   }
   header {
     max-width: 1200px;
@@ -240,12 +241,8 @@ footer img {
     margin: 50px;
     position: relative;
   }
-  main .bread {
-    width: 730px;
-    height: 470px;
-  }
   main .bread img {
-    width: 90%;
+    width: 70%;
   }
   main .offer {
     position: absolute;
