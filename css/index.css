@@ -167,8 +167,7 @@
     list-style: none;
   }
   body .asideimg2 li img {
-    width: 450px;
-    height: 400px;
+    width: 100%;
   }
   body .asideimg2 .desc4 {
     position: absolute;
