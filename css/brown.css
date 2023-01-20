@@ -229,6 +229,7 @@ footer img {
     font-size: 15px;
   }
   header nav ul .img {
+    display: none;
     position: absolute;
     left: 30%;
     bottom: 50%;
