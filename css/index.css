@@ -364,7 +364,7 @@ a {
     background: none;
   }
   .aside ul.asideimg {
-    transform: translate(-30px, -50px);
+    transform: translate(-20px, -50px);
   }
   .aside ul.asideimg li img {
     width: 100%;
@@ -391,7 +391,7 @@ a {
     height: 60px;
   }
   .aside ul.asideimg2 {
-    transform: translateY(-50px);
+    transform: translate(-20px, -50px);
   }
   .aside ul.asideimg2 li img {
     width: 100%;
