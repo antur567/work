@@ -268,7 +268,8 @@ footer{
   header{
     display: flex;
     
- 
+    overflow-x: hidden;
+    overflow-y: hidden;
     flex-wrap: wrap;
    
   
@@ -284,7 +285,7 @@ footer{
     
      
         
-      left: 15%;
+      left: 20%;
       position: relative;
       ul.wrap{
        display: flex;

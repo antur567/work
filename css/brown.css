@@ -192,10 +192,12 @@ footer img {
   }
   header {
     display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
     flex-wrap: wrap;
   }
   header nav {
-    left: 15%;
+    left: 20%;
     position: relative;
   }
   header nav ul.wrap {
