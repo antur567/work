@@ -339,7 +339,7 @@ footer img {
   footer li.touch {
     padding: 10px;
     position: absolute;
-    transform: translate(-400px, 230px);
+    transform: translate(-300px, 230px);
     font-size: 10px;
   }
   footer li.touch h4 {
@@ -353,7 +353,7 @@ footer img {
   footer li.insta {
     padding: 35px;
     position: absolute;
-    transform: translate(-430px, 125px);
+    transform: translate(-330px, 125px);
     font-weight: bold;
     top: 1%;
   }
@@ -378,7 +378,7 @@ footer img {
     transform: translateY(-20px);
     width: 500px;
     font-style: bold;
-    right: -70px;
+    right: -170px;
     font-size: 12px;
   }
   footer li.loca h4 {
