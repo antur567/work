@@ -195,6 +195,7 @@ footer img {
     flex-wrap: wrap;
   }
   header nav {
+    left: 15%;
     position: relative;
   }
   header nav ul.wrap {
