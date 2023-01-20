@@ -229,9 +229,7 @@ footer img {
     font-size: 15px;
   }
   header nav ul .img {
-    position: absolute;
-    left: 30%;
-    bottom: 50%;
+    width: 50%;
     cursor: pointer;
   }
   header nav ul li:hover a {
