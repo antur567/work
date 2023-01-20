@@ -272,6 +272,7 @@ footer{
   }
   
   header{
+    overflow-y: hidden;
     overflow-x: hidden;
 margin: auto;
     .whole{
@@ -314,7 +315,7 @@ margin: auto;
           
       li{
        
-      display: none;
+     
         transform: translateX(150px);
     
         

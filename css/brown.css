@@ -201,6 +201,7 @@ footer img {
     width: 100%;
   }
   header {
+    overflow-y: hidden;
     overflow-x: hidden;
     margin: auto;
   }
@@ -221,7 +222,6 @@ footer img {
     margin-top: 50px;
   }
   header nav ul li {
-    display: none;
     transform: translateX(150px);
   }
   header nav ul li a {
