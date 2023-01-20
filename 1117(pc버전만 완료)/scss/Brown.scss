@@ -361,13 +361,13 @@ footer{
     .bread{
       
      
-     
+     display: none;
       img{
         width: 70%;
       }
     }
     .offer{
-    
+    display: none;
       position: absolute;
       transform: translateX(-20px);
      
@@ -419,11 +419,11 @@ footer{
       
     }
     .line{
-     
+     display: none;
       width: 750px;
       transform: translateX(-30px);
       height: 100px;
-      display: flex;
+      // display: flex;
       align-items: center;
       justify-content: space-between;
       background-color: #EFEBE0;
@@ -443,6 +443,7 @@ footer{
   
     }
     .Latest{
+      display: none;
       border: 1px solid blue;
       position: absolute;
       transform: translateX(-10px);
@@ -468,7 +469,7 @@ footer{
   
   footer{
     
-   
+   display: none;
    
     right: 1%;
     position: relative;
