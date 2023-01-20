@@ -191,8 +191,12 @@ footer img {
 }
 
 @media screen and (max-width: 601px) {
+  html {
+    width: 100%;
+  }
   body {
     overflow-x: hidden;
+    width: 100%;
   }
   header .whole {
     position: absolute;
@@ -220,7 +224,6 @@ footer img {
     font-size: 15px;
   }
   header nav ul .img {
-    width: 50%;
     position: absolute;
     left: 30%;
     bottom: 50%;
