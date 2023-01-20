@@ -222,6 +222,7 @@ footer img {
     opacity: 0.8;
   }
   main {
+    border: 1px solid #000;
     left: 0%;
     height: 620px;
     margin: 50px;
