@@ -262,6 +262,7 @@ footer{
 @media screen and (max-width:601px) {
   html{
     width: 100%;
+    
   }
   body{
     overflow-x: hidden;
@@ -271,6 +272,7 @@ footer{
   }
   
   header{
+    overflow-x: hidden;
 margin: auto;
     .whole{
       position: absolute;
@@ -338,7 +340,7 @@ margin: auto;
        
         .img{
     
-        width: 50%;
+        width: 30%;
          
         
         

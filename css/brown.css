@@ -201,6 +201,7 @@ footer img {
     width: 100%;
   }
   header {
+    overflow-x: hidden;
     margin: auto;
   }
   header .whole {
@@ -229,7 +230,7 @@ footer img {
     font-size: 15px;
   }
   header nav ul .img {
-    width: 50%;
+    width: 30%;
     cursor: pointer;
   }
   header nav ul li:hover a {
