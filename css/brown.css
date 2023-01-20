@@ -214,13 +214,13 @@ footer img {
     position: relative;
   }
   header nav ul {
-    display: flex;
     flex-wrap: wrap;
     width: 470px;
     height: 95px;
     margin-top: 50px;
   }
   header nav ul li {
+    display: none;
     transform: translateX(150px);
   }
   header nav ul li a {
@@ -229,7 +229,6 @@ footer img {
     font-size: 15px;
   }
   header nav ul .img {
-    display: none;
     position: absolute;
     left: 30%;
     bottom: 50%;

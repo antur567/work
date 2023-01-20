@@ -291,8 +291,8 @@ margin: auto;
       ul{
        
        
-        
-          display: flex;
+       
+          // display: flex;
           flex-wrap: wrap;
           width: 470px;
           height: 95px;
@@ -312,7 +312,7 @@ margin: auto;
           
       li{
        
-      
+      display: none;
         transform: translateX(150px);
     
         
@@ -338,7 +338,7 @@ margin: auto;
        
         .img{
         
-        display: none;
+        
           position: absolute;
           left: 30%;
         bottom: 50%;
