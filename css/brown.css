@@ -189,10 +189,15 @@ footer img {
 }
 
 @media screen and (max-width: 601px) {
+  html {
+    width: 100%;
+    overflow-y: hidden;
+  }
   body {
     margin: auto;
     max-width: 1200px;
     overflow-x: hidden;
+    width: 100%;
   }
   header {
     display: flex;
@@ -238,7 +243,6 @@ footer img {
   main .offer {
     overflow-y: hidden;
     overflow-x: hidden;
-    display: none;
     position: absolute;
     left: 1%;
     top: 35%;
@@ -281,7 +285,6 @@ footer img {
     bottom: 10%;
   }
   main .line {
-    display: none;
     width: 300px;
     transform: translate(0px, 190px);
     height: 50px;
@@ -300,7 +303,6 @@ footer img {
   }
   main .Latest {
     overflow-y: hidden;
-    display: none;
     position: absolute;
     left: 1%;
     bottom: -2%;
