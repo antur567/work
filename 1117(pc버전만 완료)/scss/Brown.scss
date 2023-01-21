@@ -360,8 +360,8 @@ footer{
   }
   main{
    
-    
-  
+    overflow-x: hidden;
+    max-width: 1200px;
     left: 0%;
     height: 620px;
  
@@ -371,11 +371,11 @@ footer{
     .bread{
       
      position: absolute;
-     transform: translateX(-15px);
+   
       overflow-x: hidden;
       img{
         overflow-x: hidden;
-        width: 50%;
+        width: 40%;
       }
     }
     .offer{

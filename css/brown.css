@@ -222,6 +222,8 @@ footer img {
     opacity: 0.8;
   }
   main {
+    overflow-x: hidden;
+    max-width: 1200px;
     left: 0%;
     height: 620px;
     margin: 50px;
@@ -229,12 +231,11 @@ footer img {
   }
   main .bread {
     position: absolute;
-    transform: translateX(-15px);
     overflow-x: hidden;
   }
   main .bread img {
     overflow-x: hidden;
-    width: 50%;
+    width: 40%;
   }
   main .offer {
     display: none;
