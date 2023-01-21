@@ -300,7 +300,7 @@ footer img {
   }
   main .Latest {
     overflow-y: hidden;
-    display: block;
+    display: none;
     position: absolute;
     left: 1%;
     bottom: -2%;
