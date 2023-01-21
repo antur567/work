@@ -125,6 +125,7 @@ img.gnb3 {
 
 @media screen and (max-width: 690px) {
   header nav ul {
+    overflow-x: hidden;
     background: lightblue;
     margin-top: 20px;
     line-height: 30px;
