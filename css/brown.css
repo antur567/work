@@ -229,6 +229,7 @@ footer img {
   }
   main .bread {
     position: absolute;
+    transform: translateX(-10px);
     overflow-x: hidden;
   }
   main .bread img {

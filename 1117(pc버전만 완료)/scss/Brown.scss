@@ -371,9 +371,10 @@ footer{
     .bread{
       
      position: absolute;
-    
+     transform: translateX(-10px);
       overflow-x: hidden;
       img{
+      
         width: 50%;
       }
     }
