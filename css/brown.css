@@ -210,6 +210,7 @@ footer img {
   }
   header {
     display: flex;
+    overflow-y: hidden;
     flex-wrap: wrap;
   }
   header nav {
@@ -219,7 +220,7 @@ footer img {
   header nav ul.wrap {
     display: flex;
     flex-wrap: wrap;
-    width: 54%;
+    width: 60%;
     height: 60px;
   }
   header nav ul.wrap img {
@@ -227,6 +228,7 @@ footer img {
     position: absolute;
     cursor: pointer;
     top: -80%;
+    left: 10%;
   }
   header nav ul.wrap li {
     display: inline-block;
