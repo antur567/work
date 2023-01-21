@@ -239,6 +239,7 @@ footer img {
   main .offer {
     overflow-y: hidden;
     overflow-x: hidden;
+    display: none;
     position: absolute;
     left: 1%;
     top: 35%;
