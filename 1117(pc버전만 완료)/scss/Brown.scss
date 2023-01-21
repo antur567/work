@@ -363,7 +363,7 @@ footer{
     overflow-x: hidden;
     max-width: 1200px;
     left: 0%;
-    height: 620px;
+    height: 1000px;
  
   
     position: relative;
@@ -379,12 +379,13 @@ footer{
       }
     }
     .offer{
-    display: none;
+   
       position: absolute;
-      transform: translateX(-20px);
+     left: 1%;
+     
      
       
-      top:0%;
+      top:23%;
       width: 330px;
       height: 350px;
       background-color: #ffb;
