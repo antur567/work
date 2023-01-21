@@ -191,7 +191,7 @@ footer img {
 @media screen and (max-width: 601px) {
   body {
     margin: auto;
-    max-width: 600px;
+    max-width: 1200px;
     overflow-x: hidden;
   }
   header {
@@ -223,7 +223,6 @@ footer img {
     opacity: 0.8;
   }
   main {
-    max-width: 1200px;
     left: 0%;
     height: 700px;
     position: relative;
