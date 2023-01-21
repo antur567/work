@@ -205,6 +205,7 @@ footer img {
     flex-wrap: wrap;
   }
   header nav {
+    overflow-x: hidden;
     left: 20%;
     position: relative;
   }
@@ -215,6 +216,7 @@ footer img {
     height: 60px;
   }
   header nav ul.wrap li {
+    overflow-x: hidden;
     display: inline-block;
     margin: auto;
   }
@@ -227,11 +229,14 @@ footer img {
     opacity: 0.8;
   }
   main {
+    overflow-y: hidden;
+    overflow-x: hidden;
     left: 0%;
     height: 700px;
     position: relative;
   }
   main .bread {
+    overflow-x: hidden;
     position: absolute;
     overflow-x: hidden;
   }
@@ -263,6 +268,7 @@ footer img {
     line-height: 3px;
   }
   main .offer .Menu {
+    overflow-x: hidden;
     margin: 13px;
     background-color: #D49637;
     cursor: pointer;
@@ -284,6 +290,7 @@ footer img {
     bottom: 10%;
   }
   main .line {
+    overflow-x: hidden;
     width: 300px;
     transform: translate(0px, 190px);
     height: 50px;

@@ -295,7 +295,7 @@ footer{
   
     nav{
     
-     
+      overflow-x: hidden;
         
       left: 20%;
       position: relative;
@@ -327,7 +327,7 @@ footer{
       li{
      
     
-       
+        overflow-x: hidden;
 
         display: inline-block;
  
@@ -369,7 +369,8 @@ footer{
   main{
   
    
-   
+    overflow-y: hidden;
+    overflow-x: hidden;
     left: 0%;
     height: 700px;
  
@@ -377,7 +378,7 @@ footer{
     position: relative;
     
     .bread{
-      
+      overflow-x: hidden;
      position: absolute;
    
       overflow-x: hidden;
@@ -418,6 +419,7 @@ footer{
         line-height: 3px;
       }
       .Menu{
+        overflow-x: hidden;
         margin: 13px;
         background-color: #D49637;
         cursor: pointer;
@@ -441,7 +443,7 @@ footer{
       
     }
     .line{
-     
+     overflow-x: hidden;
       width: 300px;
       transform: translate(0px,190px);
       height: 50px;
