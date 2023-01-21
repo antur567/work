@@ -222,6 +222,7 @@ footer img {
     opacity: 0.8;
   }
   main {
+    max-width: 1200px;
     left: 0%;
     height: 700px;
     position: relative;
@@ -235,6 +236,8 @@ footer img {
     width: 40%;
   }
   main .offer {
+    overflow-y: hidden;
+    overflow-x: hidden;
     position: absolute;
     left: 1%;
     top: 35%;
