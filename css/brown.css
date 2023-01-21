@@ -292,7 +292,7 @@ footer img {
   main .line {
     overflow-x: hidden;
     width: 300px;
-    transform: translate(0px, 190px);
+    transform: translate(0px, 185px);
     height: 50px;
     align-items: center;
     justify-content: space-between;
