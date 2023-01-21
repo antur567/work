@@ -191,7 +191,8 @@ footer img {
 @media screen and (max-width: 601px) {
   body {
     margin: auto;
-    background: url();
+    max-width: 600px;
+    overflow-x: hidden;
   }
   header {
     display: flex;
