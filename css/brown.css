@@ -229,6 +229,8 @@ footer img {
     position: relative;
   }
   main .bread {
+    position: absolute;
+    right: -60%;
     overflow-x: hidden;
   }
   main .bread img {
