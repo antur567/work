@@ -308,9 +308,9 @@ footer img {
     width: 7%;
   }
   main .Latest {
+    overflow-x: hidden;
     position: absolute;
     left: 1%;
-    bottom: -2%;
     width: 300px;
     height: 90px;
   }

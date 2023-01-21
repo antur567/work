@@ -467,6 +467,7 @@ footer{
   
     }
     .Latest{
+      overflow-x: hidden;
       b{
         position: absolute;
         top: 30%;
@@ -476,7 +477,7 @@ footer{
      
       position: absolute;
       left: 1%;
-      bottom: -2%;
+      
     width: 300px;
     height: 90px;
   
