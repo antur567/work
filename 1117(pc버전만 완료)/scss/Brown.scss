@@ -263,14 +263,14 @@ footer{
   
   html{
   
-    
+    overflow-x: hidden;
     
   }
   body{
     scroll-behavior: smooth;
     margin: auto;
    max-width: 1200px;
-   overflow-x: hidden;
+  
    width: 100%;
    
   
