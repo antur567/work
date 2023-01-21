@@ -231,6 +231,7 @@ footer img {
     left: 10%;
   }
   header nav ul.wrap li {
+    transform: translateY(10px);
     display: inline-block;
     margin: auto;
   }
