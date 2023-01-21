@@ -228,11 +228,8 @@ footer img {
     margin: 50px;
     position: relative;
   }
-  main .bread {
-    display: none;
-  }
   main .bread img {
-    width: 70%;
+    width: 60%;
   }
   main .offer {
     display: none;
