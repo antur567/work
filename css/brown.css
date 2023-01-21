@@ -312,7 +312,11 @@ footer img {
     left: 1%;
     bottom: -2%;
     width: 300px;
-    height: 100px;
+    height: 90px;
+  }
+  main .Latest b {
+    position: absolute;
+    top: 30%;
   }
   main p.p1 {
     color: #D49637;
