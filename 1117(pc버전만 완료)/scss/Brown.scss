@@ -15,16 +15,25 @@ body{
  
  
 }
+li.brown{
+  position: relative;
+  left: 20%;
+  img{
+    width: 40%;
+    border: 1px solid #000;
+  }
+}
 header{
 
- 
+
   display: flex;
-  height: 100px;
-  justify-content: space-around;
+ 
+  height: 150px;
+ 
  transform: translateY(30px);
   align-items: center;
 
-  line-height: 30px;
+  
 
 
   nav{
@@ -33,6 +42,23 @@ header{
 
    
     ul{
+     
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+      width: 1200px;
+     
+  
+      img{
+        width: 20%;
+      }
+     li.whole{
+     
+     
+     }
+     
+      
+    
       
       
       display: flex;
@@ -43,7 +69,7 @@ header{
      a{
       color: brown;
       font-weight: bold;
-      margin: 30px;
+    
       font-size: 20px;
      }
      li:hover a{
@@ -260,10 +286,11 @@ footer{
 
 //------------------------------1024px//
 @media screen and (max-width:601px) {
+ 
   
   html{
   
-    overflow-x: hidden;
+   
     
   }
   body{
@@ -280,8 +307,8 @@ footer{
   header{
     display: flex;
     
-    overflow-x: hidden;
-    overflow-y: hidden;
+ 
+  
     flex-wrap: wrap;
    
   
@@ -295,15 +322,24 @@ footer{
   
     nav{
     
-      overflow-x: hidden;
         
       left: 20%;
       position: relative;
       ul.wrap{
+        img{
+          width: 45%;
+          position: absolute;
+          cursor: pointer;
+          top: -80%;
+
+       
+        }
+       
+        
        display: flex;
     
       flex-wrap: wrap;
-        width: 55%;
+        width: 54%;
         height: 60px;
       
       
@@ -325,9 +361,10 @@ footer{
          
           
       li{
-     
+
+       
     
-        overflow-x: hidden;
+     
 
         display: inline-block;
  

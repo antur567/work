@@ -6,24 +6,37 @@ body {
   max-width: 1200px;
 }
 
+li.brown {
+  position: relative;
+  left: 20%;
+}
+li.brown img {
+  width: 40%;
+  border: 1px solid #000;
+}
+
 header {
   display: flex;
-  height: 100px;
-  justify-content: space-around;
+  height: 150px;
   transform: translateY(30px);
   align-items: center;
-  line-height: 30px;
 }
 header nav {
   display: flex;
 }
 header nav ul {
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 1200px;
   display: flex;
+}
+header nav ul img {
+  width: 20%;
 }
 header nav ul a {
   color: brown;
   font-weight: bold;
-  margin: 30px;
   font-size: 20px;
 }
 header nav ul li:hover a {
@@ -189,9 +202,6 @@ footer img {
 }
 
 @media screen and (max-width: 601px) {
-  html {
-    overflow-x: hidden;
-  }
   body {
     scroll-behavior: smooth;
     margin: auto;
@@ -200,23 +210,25 @@ footer img {
   }
   header {
     display: flex;
-    overflow-x: hidden;
-    overflow-y: hidden;
     flex-wrap: wrap;
   }
   header nav {
-    overflow-x: hidden;
     left: 20%;
     position: relative;
   }
   header nav ul.wrap {
     display: flex;
     flex-wrap: wrap;
-    width: 55%;
+    width: 54%;
     height: 60px;
   }
+  header nav ul.wrap img {
+    width: 45%;
+    position: absolute;
+    cursor: pointer;
+    top: -80%;
+  }
   header nav ul.wrap li {
-    overflow-x: hidden;
     display: inline-block;
     margin: auto;
   }
