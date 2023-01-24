@@ -339,6 +339,10 @@ footer {
 }
 
 @media screen and (min-width: 1020px) {
+  .banner p.p1{
+    font-weight: bold;
+    font-size: 30px;
+  }
   img.gnb1 {
     margin-left: -50px;
     margin-right: -150px;
@@ -365,15 +369,50 @@ footer {
     border-radius: 10px;
   }
   .banner img {
-    width: 24%;
-    margin-top: 80px;
+    
   }
-  .banner h1 {
-    margin-top: 50px;
+  p.p3,p.p4,p.p5,p.p6,p.p7,p.p8,p.p9,p.p10,p.p11,p.p12,p.p13,p.p14,p.p15,p.p16,p.p17,p.p18{
+    display: none;
   }
+ 
   figure {
     display: flex;
   }
+  figure p.p1{
+    position: absolute;
+   left: 35%;
+   top: 117%;
+  }
+  figure p.p2{
+    position: absolute;
+   left: 34%;
+   top: 125%;
+  }
+  figure p.p3{
+    
+  
+
+  }
+  figure p{
+    position: absolute;
+    left: 50%;
+    top: 117%;
+  }
+  img.img2{
+    position: absolute;
+    width: 12%;
+    top: 110%;
+    right: 17%
+  }
+  figure p.p4{
+    position: absolute;
+   
+  }
+  figure p.p20{
+    position: absolute;
+    transform: translateY(80px);
+  }
+  
   figure img {
     width: 23%;
   }
@@ -504,23 +543,23 @@ footer {
       <!-- figure /figure구분  -->
       <figure>
         <img  src="./image/카카오뱅크 이체 및 계좌개설 이용화면.png" alt="">
-        <p>
+        <p class="p1">
           모바일로 더 손쉬운
           계좌개설,
           간편한 이체
-          <p >
-            인증서, OTP없이 계좌 개설이 간편합니다.
-            여러 건의 이체도 몇번의 터치로 손쉽게 보낼 수 있습니다.
+          <p class="p2">
+            인증서, OTP없이 계좌 개설이 간편합니다.<br/>
+            여러 건의 이체도 몇번의 터치로<br/> 손쉽게 보낼 수 있습니다.
           </p>
         </p>
         
-        <img  src="./image/예금_적금 가입 이용화면.png" alt="">
-        <p>
+        <img  class="img2" src="./image/예금_적금 가입 이용화면.png" alt="">
+        <p >
           우대조건 없이 합리적인
           예금과 적금
-          <p >
-            기대했던 금리와 다르게 복잡한 우대조건에 실망한 적이 있었나요?
-            카카오뱅크의 예금,적금은 숨겨진 우대조건 없이 누구에게나 편리하고 합리적입니다.
+          <p class="p20" >
+            기대했던 금리와 다르게 복잡한 우대조건에 실망한 적이 있었나요?<Br/>
+            카카오뱅크의 예금,적금은 숨겨진 우대조건 없이 누구에게나<Br/> 편리하고 합리적입니다.
           </p>
         </p>
 
