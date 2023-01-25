@@ -16,16 +16,16 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   max-width: 1500px;
-  background-repeat: no-repeat;
-  background-position: cover/center;
-  height: 900px;
+ 
+ 
+  height: 1100px;
   margin: auto;
   overflow-x: hidden;
 }
 #sect1 img{
  
   height: 700px;
- max-width: 1500px;
+ 
   
 }
 
@@ -34,7 +34,8 @@ body {
 
 
 main {
-  max-width: 1500px;
+  width: 100%;
+ 
   line-height: 50px;
 }
 
@@ -49,28 +50,20 @@ p.bank {
 }
 
 #sect2 {
+  width: 90%;
   height: 700px;
+
   margin: 200px;
   margin-top: 150px;
-  max-width: 1500px;
+
   transform: translate(-10%, -30%);
 }
-#sect2 .boan {
-  margin: 50px;
-  transform: translate(10%, 80%);
-  font-size: 25px;
-  font-line-height: 50px;
-}
 
-img.boan2 {
-  width: 40%;
-  margin-top: -400px;
-  transform: translateX(170%);
-  text-align: center;
-}
+
+
 
 img.main {
-  width: 50%;
+ 
   transform: translate(200%, -120%);
 }
 
@@ -82,7 +75,7 @@ h2, p {
 
 #sect5 {
   height: 500px;
-  max-width: 1500px;
+width: 100%;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
@@ -296,29 +289,30 @@ footer ul.co .co3 {
 }
 
 @media screen and (max-width: 600px) {
-  h1 img {
-    width: 70%;
+  header{
+   
+    width: 100%;
   }
+  
   nav ul li {
     display: none;
   }
   #sect1{
-    text-align: center;
-    height: 900px;
-  }
-  #sect1 img{
-    width: 150px;
     
+    text-align: center;
+    height: 800px;
   }
+ 
   #sect1 p.main2 {
   
     transform: translateY(-800%);
-    margin: 20px;
-    font-size: 30px;
+    
+    font-size: 15px;
   }
   #sect1 p.bank2{
     transform: translateY(-2400%);
-    margin: 20px;
+    
+
     font-size: 13px;
   }
   #sect1 img{
@@ -326,8 +320,8 @@ footer ul.co .co3 {
   }
   #sect1 .btn{
  transform: translateY(-850%);
- margin: 20px;
- display: none;
+ 
+display: none;
 
  }
  #sect3 img.more{
@@ -336,10 +330,10 @@ footer ul.co .co3 {
   
  }
  p.mobile2{
-  display: none;
-  transform: translateY(-1490%);
+
+  transform: translateY(-1600%);
     line-height: 50px;
-   height: 50px;
+   width: 100%;
     background:blue;
     color: #fff;
     font-weight: bold;
@@ -355,7 +349,7 @@ footer ul.co .co3 {
   cursor: pointer;
  }
  #sect1 img.vis{
- 
+
   transform: translateY(-750px);
 
 
