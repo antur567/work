@@ -1,0 +1,151 @@
+
+
+h1,h2,h3,h4,h5,h6{
+ margin: 0;
+ padding: 0;
+}
+
+*{
+
+  box-sizing: border-box;
+}
+body{
+  margin:auto;
+}
+section{
+  border: 1px solid #000;
+  height: 300px;
+}
+
+header{
+  border: 1px solid #000;
+  line-height: 50px;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  
+ 
+ 
+ 
+
+ 
+  margin: auto;
+  ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+   
+  
+    
+    
+
+    img{
+    
+      vertical-align: middle;
+      
+      cursor: pointer;
+    
+     
+      
+    }
+    img.gnb{
+      display: none;
+    }
+    li{
+   
+      outline: none;
+      display: inline-block;
+      border-radius: 5px;
+     
+     
+      list-style: none;
+      
+      a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+       
+      }
+      
+    }
+    li:hover{
+    
+      height: 40px;
+      line-height: 40px;
+      box-shadow: 5px 5px 5px 5px;
+      
+     
+    }
+    li.develop{
+      cursor: pointer;
+      border: 1px solid #000;
+      border-color: green;
+      background-color: rgb(236, 255, 236);
+    
+      color: rgb(38, 245, 38);
+      border-radius: 5px;
+      height: 40px;
+      line-height: 40px;
+    }
+    li.thief{
+      cursor: pointer;
+      border: 1px solid #000;
+      border-color: red;
+      border-radius: 5px;
+      color: brown;
+      
+      height: 40px;
+      line-height: 40px;
+     
+    }
+  }
+  
+}
+#sect5{
+  position: relative;
+  height: 1010px;
+  b{
+    color: blue;
+  }
+  h4{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    text-align: center;
+    font-size: 50px;
+  }
+  p{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 540;
+    left: 32%;
+    top: 23%;
+  
+  }
+  img{
+    position: absolute;
+    top: 30%;
+    width: 90%;
+    left: 6%;
+  }
+}
+@media screen and (max-width:598px) {
+  
+  header{
+    
+    ul img.gnb{
+      display: block;
+    }
+    
+  }
+  ul>li>a{
+    display: none;
+  }
+  #sect5{
+    display: none;
+  }
+  
+}
+@media screen and (min-width:1024px) {
+  
+}
