@@ -16,13 +16,7 @@ body {
   margin: auto;
 }
 
-section {
-  border: 1px solid #000;
-  height: 300px;
-}
-
 header {
-  border: 1px solid #000;
   line-height: 50px;
   height: 100px;
   position: -webkit-sticky;
@@ -79,7 +73,6 @@ header ul li.thief {
 }
 
 #sect1 {
-  border: 1px solid #000;
   height: 800px;
   position: relative;
   background-image: url("/0808/image/img_visual_01.png");
@@ -103,12 +96,8 @@ header ul li.thief {
   right: 5%;
   top: 10%;
 }
-#sect1 .box {
-  border: 1px solid #000;
-}
 
 #sect2 {
-  border: 1px solid #000;
   height: 900px;
   position: relative;
 }
@@ -122,7 +111,7 @@ header ul li.thief {
   position: absolute;
   right: 1%;
   top: 15%;
-  width: 40%;
+  width: 30%;
 }
 #sect2 b {
   color: blue;
@@ -135,7 +124,6 @@ header ul li.thief {
 }
 
 #sect3 {
-  border: 1px solid #000;
   height: 1000px;
   background: url("/0808/image/main_banner_03.png");
   background-position: center;
@@ -166,16 +154,45 @@ header ul li.thief {
 }
 
 #sect4 {
-  border: 1px solid #000;
-  height: 930px;
+  overflow-x: hidden;
   position: relative;
+}
+#sect4 .bg > div {
+  z-index: 2;
+  position: absolute;
+  color: white;
+  left: 30%;
+  top: 35%;
+  transform: translateX(-50px);
+  font-size: 30px;
+  width: 100%;
+}
+#sect4 .bg > div p.p1 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  left: 20%;
+  transform: translateY(40px);
 }
 #sect4 .box {
   height: 250px;
   background-color: grey;
 }
 #sect4 .videoplay {
+  height: 100%;
   width: 100%;
+}
+#sect4 .bg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4e4e4e;
+  opacity: 0.6;
+  z-index: 1;
 }
 
 #sect5 {
