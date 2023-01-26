@@ -3,6 +3,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,7 +25,8 @@ header {
   border: 1px solid #000;
   line-height: 50px;
   height: 100px;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   width: 100%;
   margin: auto;
 }
@@ -70,6 +76,106 @@ header ul li.thief {
   color: brown;
   height: 40px;
   line-height: 40px;
+}
+
+#sect1 {
+  border: 1px solid #000;
+  height: 800px;
+  position: relative;
+  background-image: url("/0808/image/img_visual_01.png");
+  background-position: center;
+  background-size: cover;
+}
+#sect1 h1 {
+  position: absolute;
+  left: 10%;
+  font-size: 40px;
+  top: 30%;
+}
+#sect1 p {
+  position: absolute;
+  left: 10%;
+  font-size: 15px;
+  top: 50%;
+}
+#sect1 img.main {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+#sect1 .box {
+  border: 1px solid #000;
+}
+
+#sect2 {
+  border: 1px solid #000;
+  height: 900px;
+  position: relative;
+}
+#sect2 h1 {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  font-size: 40px;
+}
+#sect2 .main2 {
+  position: absolute;
+  right: 1%;
+  top: 15%;
+  width: 40%;
+}
+#sect2 b {
+  color: blue;
+}
+#sect2 p {
+  position: absolute;
+  left: 10%;
+  top: 45%;
+  font-size: 20px;
+}
+
+#sect3 {
+  border: 1px solid #000;
+  height: 1000px;
+  background: url("/0808/image/main_banner_03.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#sect3 h2 {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  font-size: 40px;
+}
+#sect3 p {
+  position: absolute;
+  left: 10%;
+  top: 53%;
+}
+#sect3 p.mobile {
+  font-weight: bold;
+  left: 10%;
+  top: 60%;
+}
+#sect3 img {
+  position: absolute;
+  right: 5%;
+  width: 40%;
+  top: 20%;
+}
+
+#sect4 {
+  border: 1px solid #000;
+  height: 930px;
+  position: relative;
+}
+#sect4 .box {
+  height: 250px;
+  background-color: grey;
+}
+#sect4 .videoplay {
+  width: 100%;
 }
 
 #sect5 {

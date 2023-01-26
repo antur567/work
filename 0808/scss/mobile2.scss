@@ -4,6 +4,10 @@ h1,h2,h3,h4,h5,h6{
  margin: 0;
  padding: 0;
 }
+p{
+  margin: 0;
+  padding: 0;
+}
 
 *{
 
@@ -18,10 +22,12 @@ section{
 }
 
 header{
-  border: 1px solid #000;
+ border: 1px solid #000;
+
   line-height: 50px;
   height: 100px;
-  position: fixed;
+ 
+ position: sticky;
   width: 100%;
   
  
@@ -101,6 +107,112 @@ header{
   }
   
 }
+
+#sect1{
+  border: 1px solid #000;
+  height: 800px;
+  position: relative;
+  background-image: url('/0808/image/img_visual_01.png');
+  background-position: center;
+  background-size: cover;
+ 
+h1{
+  position: absolute;
+  left: 10%;
+  font-size: 40px;
+  top: 30%;
+}
+p{
+  position: absolute;
+  left: 10%;
+  font-size: 15px;
+  top: 50%;
+}
+img.main{
+ 
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+.box{
+  border: 1px solid #000;
+}
+ 
+}
+
+#sect2{
+  border: 1px solid #000;
+  height: 900px;
+  position: relative;
+  h1{
+    position: absolute;
+    left: 10%;
+    top:30%;
+    font-size: 40px;
+  }
+  .main2{
+    position: absolute;
+    right: 1%;
+    top: 15%;
+    width: 40%;
+    
+  }
+  b{
+    color: blue;
+  }
+  p{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    font-size: 20px;
+  }
+}
+#sect3{
+  border: 1px solid #000;
+  height: 1000px;
+  background: url('/0808/image/main_banner_03.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  h2{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-size: 40px;
+  }
+  p{
+    position: absolute;
+    left: 10%;
+    top: 53%;
+  }
+  p.mobile{
+    font-weight: bold;
+    left: 10%;
+    top: 60%;
+  }
+  img{
+    position: absolute;
+    right: 5%;
+    width: 40%;
+    top: 20%;
+  }
+}
+#sect4{
+  .box{
+   
+    height: 250px;
+    background-color: grey;
+  }
+  border: 1px solid #000;
+  height: 930px;
+  position: relative;
+ 
+ .videoplay{
+  width: 100%;
+ }
+
+}
+
 #sect5{
   position: relative;
   height: 1010px;
