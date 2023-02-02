@@ -120,6 +120,7 @@ footer ul {
   }
   body {
     overflow-x: hidden;
+    max-width: 2000px;
   }
   #sect1 {
     background: url("/0913/images/이미지 텍스트 내용삽입.jpg");
@@ -1001,6 +1002,7 @@ footer ul {
   }
   body {
     overflow-x: hidden;
+    max-width: 2100px;
   }
   #sect1 {
     background: url("/0913/images/이미지 텍스트 내용삽입.jpg");
