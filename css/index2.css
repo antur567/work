@@ -4,13 +4,11 @@ li {
 }
 
 section {
-  height: 600px;
   margin: auto;
 }
 
 body {
   overflow-x: hidden;
-  max-width: 2000px;
 }
 
 #sect1 {
