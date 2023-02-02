@@ -241,7 +241,7 @@ footer {
   display: none;
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1500px) {
   img.gnb1 {
     margin-left: -50px;
     margin-right: -150px;
