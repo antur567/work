@@ -55,7 +55,7 @@ body{
 }
 
 #sect2{
- 
+
 
   
 
@@ -222,6 +222,7 @@ body{
     height: 100px;
     transform: translateY(150px);
    .inner2{
+
     
     width: 5%;
     height: 100px;
@@ -1180,6 +1181,7 @@ footer{
 
   #sect2{
     height: 1300px;
+ 
     
   
    
@@ -1338,7 +1340,8 @@ footer{
    top: 200%;
     }
     .event{
-     
+      
+   
       background-color: rgba(186, 179, 179, 0.238);
       
      
@@ -1347,6 +1350,11 @@ footer{
       height: 100px;
       transform: translateY(150px);
      .inner2{
+      .event2{
+        font-size: 20px;
+        line-height: 60px;
+      }
+  
       
       width: 5%;
       height: 100px;
@@ -1395,7 +1403,9 @@ footer{
       transform: translateX(70px);
      }
      
+     
     }
+   
     .notice{
      
       transform: translateY(180px);

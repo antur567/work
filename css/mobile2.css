@@ -19,7 +19,6 @@ body {
 header {
   line-height: 50px;
   height: 100px;
-  position: -webkit-sticky;
   position: sticky;
   width: 100%;
   margin: auto;

@@ -10,34 +10,15 @@
   <style>
     
     body{
-  max-width: 1200px;
+
   height: 100px;
   margin: auto;
-  background-image: url(./image/bg-wrap.jpg);
+background:url('./image/bg-wrap.jpg');
 
-
-background-position: center/cover;
-
-
+background-size: cover;
 
 
 
-
-
-
-
-
-
- 
- 
-
-
- 
- 
- 
-  
- 
-  
 }
 .gnb{
   display: flex;
@@ -136,122 +117,85 @@ strong.st2{
 }
 
 
-@media screen and (max-width:850px) {
- 
-  ul li a{
- font-weight: normal;
- font-size: 15px;
-    display: inline-block;
-    width: 100px;
-  border: 1px solid blue;
-  height: 50px;
-  line-height: 50px;
-  margin-left: 15px;
-  text-align: center;
-
-
-  }
-  ul li:hover a{
-    color: deeppink;
-  }
-  h1 img{
-    width: 100%;
-  }
- 
-  h2{
-    font-size: 30px;
-  }
-  p{
- 
-    text-align: end;
-    
-   
-    font-size: 15px;
-  }
-  .reservation{
- 
-    
-    
-    gap: 30px;
-    
-   
-  }
-  .re1{
-    margin-top: -150px;
-    transform: translate(-18%);
-    cursor: pointer;
-    
-  }
-  .re2{
-    margin-top: -150px;
-    transform: translate(-18%);
-    cursor: pointer;
-    
+@media screen and (max-width:598px) {
+  
+  body{
+    background-attachment: fixed;
+    background-position: center;
   }
   .col-1{
-    width: 200px;
-  
-    align-items:center;
-    justify-content: center;
-    height: 150px;
-    margin: 50px;
-    
-    padding: 40px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 50px;
-    margin-bottom: 20px;
-    margin-left: 70px;
    
+    width: 430px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    margin: 20px;
+    padding: 15px;
+ 
+    
     
   }
-  .col-1 p{
-    font-size: 30px;
-    
-  }
-  .col-2{
-    width: 200px;
-    align-items:center;
-    justify-content: center;
-    height: 150px;
-    padding: 40px;
-    margin: 50px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 50px;
-    margin-left: 70px;
+  p.re1{
    
-  }
-  .col-2 p{
-    
-   font-size: 30px;
-  }
-  p.intro{
-    margin-top: 60px;
-    color: #fff;
-    line-height: 25px;
-    font-size: 15px;
-    text-align: center;
-    
-   
-  
+    transform: translateX(-120px);
+    font-size: 20px;
   }
   .col1{
-    margin-top: 35px;
+    width: 15%;
+
+    transform: translateX(-132px);
+  }
+  .col-2{
+  
+    width: 430px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    margin: 20px;
+    padding: 15px;
+ 
+  }
+  p.re2{
+  
+    transform: translateX(-120px);
+    font-size: 20px;
   }
   .col2{
-    margin-top: 35px;
+    width: 15%;
+    transform: translateX(-130px);
   }
- 
-  strong.st1{
-  cursor: pointer;
+  .gnb h1 img{
+    width: 130%;
+    transform: translateX(60px);
+  }
+  ul.info li a{
+   display:flex;
+
+   font-size: 15px;
+   width: 100px;
+   justify-content: center;
+
+   transform: translate(-130px,55px);
   
-}
-strong.st2{
-  cursor: pointer;
-}
+  
+   
+  }
+  .row h2{
+    
+   
+    
+     
+    
+     transform: translateY(-50px);
+     
+    font-size: 40px;
+
+    
+ 
+    }
+    p.intro{
+      font-size: 23px;
+    }
 }
 
 @media screen and (min-width:1020px) {
@@ -262,6 +206,7 @@ strong.st2{
     
     font-size: 25px;
   }
+ 
   .reservation{
     display: flex;
    
@@ -269,6 +214,16 @@ strong.st2{
     align-items: center;
     gap: 30px;
    
+  }
+  img.col1{
+    transform: translateX(120px);
+  }
+  img.col2{
+    transform: translateX(120px);
+  }
+  .mobile{
+   
+    display: inline-block;
   }
 }
 
@@ -287,11 +242,16 @@ strong.st2{
       </div>
     </div>
     <div class="row">
-      <h2>청와대,국민품으로</h2>
+    <h2>청와대,
+      <div class="mobile">국민품으로</div>
+    </h2>
+    
+      </div>
       <div class="reservation">
         <div class="col-1">
           <img class="col1" src="./image/ico_callender.png" alt="">
           <p class="re1" >예약하기</p>
+        
         </div>
         <div class="col-2">
           <img class="col2" src="./image/ico_callender_check.png" alt="">

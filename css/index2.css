@@ -135,14 +135,6 @@ section {
 #sect2 .line ul.img2 li.main6:hover {
   text-decoration: underline;
 }
-@-webkit-keyframes ani {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 @keyframes ani {
   0% {
     transform: translateY(10px);
@@ -308,18 +300,12 @@ section {
   position: absolute;
   left: 8%;
   bottom: 65%;
-  -webkit-animation-name: more;
-          animation-name: more;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-name: more;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-duration: 1s;
 }
 #sect3 .img6 {
   position: absolute;
@@ -750,26 +736,12 @@ footer ul {
     width: 30%;
     left: 10%;
     top: 20%;
-    -webkit-animation-name: more;
-            animation-name: more;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-  }
-  @-webkit-keyframes more {
-    0% {
-      transform: translateY(0x);
-    }
-    100% {
-      transform: translateY(9px);
-    }
+    animation-name: more;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-duration: 1s;
   }
   @keyframes more {
     0% {
@@ -796,14 +768,10 @@ footer ul {
     top: 67%;
   }
   #sect1 .img4:hover {
-    -webkit-animation-name: more;
-            animation-name: more;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-name: more;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-duration: 1s;
   }
   #sect1 .lnb {
     position: absolute;
@@ -930,18 +898,12 @@ footer ul {
   }
   #sect1 div.ani img.item3 {
     position: absolute;
-    -webkit-animation-name: more;
-            animation-name: more;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-name: more;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-duration: 1s;
     left: 33%;
     top: 20%;
   }
@@ -949,18 +911,12 @@ footer ul {
     position: absolute;
     bottom: 0%;
     left: 30%;
-    -webkit-animation-name: more;
-            animation-name: more;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-name: more;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-duration: 1s;
   }
   #sect2 {
     height: 1300px;
@@ -1073,14 +1029,6 @@ footer ul {
   #sect2 .line ul.img2 li.main6:hover {
     text-decoration: underline;
   }
-  @-webkit-keyframes ani {
-    0% {
-      transform: translateY(10px);
-    }
-    100% {
-      transform: translateY(0px);
-    }
-  }
   @keyframes ani {
     0% {
       transform: translateY(10px);
@@ -1106,6 +1054,10 @@ footer ul {
     height: 100px;
     background-image: url("/0913/images/sprite.png");
     background-position: 840px -160px;
+  }
+  #sect2 .event .inner2 .event2 {
+    font-size: 20px;
+    line-height: 60px;
   }
   #sect2 .event .inner2 p {
     transform: translateY(-90px);
@@ -1245,18 +1197,12 @@ footer ul {
     position: absolute;
     left: 8%;
     bottom: 65%;
-    -webkit-animation-name: more;
-            animation-name: more;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-name: more;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-duration: 1s;
   }
   #sect3 .img6 {
     position: absolute;
